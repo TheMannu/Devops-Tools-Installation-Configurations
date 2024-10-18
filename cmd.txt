@@ -1,0 +1,263 @@
+PowerCfg/SETACVALUEINDEX SCHEME_CURRENT SUB_PROCESSOR IDLEDISABLE 000
+PowerCfg/SETACTIVE SCHEME_CURRENT
+
+
+                         * Linux Command *
+
+ls                       -> to list the content of the folder
+
+sudo apt-get update      -> to update the system
+
+sudo apt-get upgrade     -> to install the updates
+
+sudo apt install software-properties-common  -> Install the necessary prerequisites
+
+sudo apt-get install appName  -> To install that application
+
+sudo apt-get remove appName   -> To uninstall the app
+
+sudo apt-get autoremove       -> to remove unused file or cleanup
+
+
+
+                          * AWS Cli * 
+
+
+
+sudo apt install awscli  -> to install aws cli in linux
+
+aws --version            -> to check if aws cli is installed or not
+
+aws configure            -> to configure the IAm account in Linux 
+
+aws configure --profile IAMMannu003  -> to configure the IAm account in Linux with a profile name and not as Default
+
+AWS Access Key ID [****************2BGQ]:
+AWS Secret Access Key [****************c2nr]:
+Default region name [ap-south-1]:
+Default output format [json]:
+
+ aws configure list-profiles  -> to check lsit of profile
+
+ source .env                  -> to configure the tamperory credentials
+
+aws sts get-caller-identity   -> This will return a JSON response containing information about the identity used to authenticate the request, including the user's ARN, user ID, and account ID. The "Arn" field will contain the username in the following format: Code - arn:aws:iam::<account-id>:user/<username>
+
+
+ nano ~/.aws/config       -> to remove cofiguration  of IAM profile
+ nano ~/.aws/credentials  -> to remove credentials of IAM user
+
+
+aws ec2 run-instances --cli-input-json file://ec2-server  -> To launh a ec2 instace of free tier
+
+aws ec2 describe-instances --instance-ids <your-instance-id> --query "Reservations[].Instances[].State.Name" -> To check the status of the instance 
+
+aws ec2 describe-instances --instance-ids <your-instance-id> --query "Reservations[].Instances[].PublicDnsName" -> To extract public ip addresh
+
+ssh -i key.pem ubuntu@<public-ip-addresh> -> to login the instance
+
+aws ec2 terminate-instances --instance-ids <your-instance-id>  To terminate the created instance
+
+
+
+or we can use 
+
+aws ec2 describe-instances --instance-ids <your-instance-id> --query "Reservations[].Instances[].PublicDnsName"
+
+ssh -i key.pem ubuntu@<public-ip-addresh>  -> To login the instance
+
+
+
+also we can use 
+
+# Retrieve the public DNS name of the EC2 instance
+public_dns=$(aws ec2 describe-instances --instance-ids <your-instance-id> --query "Reservations[].Instances[].PublicDnsName" --output text)
+
+# SSH into the instance using the retrieved public DNS name
+ssh -i key.pem ubuntu@"$public_dns"
+
+**scp -i "key.pem" /home/ubuntu/workdir/task-2-strapi-app/README.md ubuntu@ec2-100-26-239-213.compute-1.amazonaws.com:/home/ubuntu**   -> to copy the file from local to remote machine  
+
+**scp -i "key.pem" -r /home/ubuntu/workdir/task-2-strapi-app ubuntu@ec2-100-26-239-213.compute-1.amazonaws.com:/home/ubuntu**
+-> to copy folder recursively from local to remote machine
+
+**scp -i "key.pem" -r ubuntu@ec2-100-26-239-213.compute-1.amazonaws.com:/home/ubuntu/remoteFolder /home/ubuntu/localFolder/workdir/**
+-> to copy the folder recursively from remote machine to local machine
+
+**rsync -e "ssh -i key.pem" -avz folder-in-local ubuntu@ec2-3-15-221-86.us-east-2.compute.amazonaws.com:/home/ubuntu/folder-in-remote 
+-> to syncronize local and remote 
+
+aws ec2 terminate-instances --instance-ids <your-instance-id>  -> To terminate created ec2 instance 
+
+
+                           * Installing Python an₫ boto3 for aws automation *
+
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+
+sudo apt install python3.10  -> install python3
+
+sudo apt install python3-pip -> Install pip (Python package installer)
+
+python3.10 --version        -> Verify the installation
+
+pip3 --version              -> Verify the installation
+
+pip3 install boto3          -> Install boto3 using pip
+
+python3.10 -m pip show boto3 -> Verify the installation
+
+  ->  Create a Python script (e.g., create_s3_bucket.py):
+            import boto3
+
+            s3 = boto3.client('s3')   # Create an S3 client
+
+            bucket_name = 'my-new-bucket'    # Create a bucket
+            s3.create_bucket(Bucket=bucket_name)
+
+            print(f"Bucket {bucket_name} created successfully.")
+
+      python3.10 create_s3_bucket.py   -> Run the script
+
+
+                           * Installing jenkins *
+
+
+sudo apt update            -> to update teh pakages
+
+sudo apt install openjdk-17-jre -> to install the jre as jenkins prerequisits
+
+java -version              - to check the installation of java 
+
+curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins  -> installing jenkins
+
+change inbound rule - to all trafic_custom TCP _ port 8080
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword -> to reflect the pasword for jenkins
+
+
+-----------------------------------------------------------
+
+
+Step 1: Install Java 
+
+$ sudo apt update  
+    
+$ java -version
+
+$ sudo apt install openjdk-17-jre-headless
+
+$ y
+
+$ java -version
+
+Step 2: Add Jenkins Repository i.e key
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+  
+Step 3: Add Jenkins repo to the system i.e source list
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+  
+Step 4: Install Jenkins
+
+$ sudo apt-get update
+
+$ sudo apt-get install jenkins
+
+$ y
+
+Step 5: Verify installation
+$ systemctl status jenkins
+
+
+---------------------------------------------------------------
+
+
+                            * Installing Docker *
+sudo apt-get update -> to update the pakages and dependencies.
+
+sudo apt install docker.io -> To install the docker
+
+sudo su -   -> to act as root user
+
+usermod -aG docker jenkins  -> to add jenkins in docker group ( jenkins can work with docker)
+
+usermod -aG docker ubuntu   -> to add ubuntu in docker group (so ubuntu can work with docker)
+
+systemctl restart docker    -> to restart docker deamon and completen
+
+su - jenkins                -> to work as jenkins
+
+docker run hello-world      -> to check if docker is working fine 
+
+docker ps -a                -> to check running containers
+
+Log in to Jenkins.
+Go to Manage Jenkins > Manage Plugins.
+In the Available tab, search for "Docker Pipeline".
+Select the plugin and click the Install button.
+Restart Jenkins after the plugin is installed.
+
+http://<ec2-instance-public-ip>:8080/restart  -> to restart the jenkins after plugin installation
+
+----------------------------------------------------------------------------------------------
+
+To install the latest stable versions of Docker CLI, Docker Engine, and their
+# dependencies:
+#
+# 1. download the script
+#
+#   $ curl -fsSL https://get.docker.com -o install-docker.sh
+#
+# 2. verify the script's content
+#
+#   $ cat install-docker.sh
+#
+# 3. run the script with --dry-run to verify the steps it executes
+#
+#   $ sh install-docker.sh --dry-run
+#
+# 4. run the script either as root, or using sudo to perform the installation.
+#
+#   $ sudo sh install-docker.sh
+
+
+----------------------------------------------------------------------------------------------
+
+                     * uploading file to github *
+
+cd Portfolio -> move inside the folder 
+
+git init  -> initialize git 
+
+git status  -> to check the staging area (unstaged in red colour)
+
+git add .  -> to add all changes to staging area 
+
+git status  -> to check the staging area (all staged in green clour)
+
+git commit -m "Initial Commit" -> to write the m=commiting message 
+
+git remote add origin https://github.com/TheMannu/repository_name   -> to add location for source code 
+
+ git remote -v -> to check if location is correct
+
+git branch  -> to check branch if (master then chnge to main)
+
+git branch -M main  -> to change the branch to main 
+
+git push -u origin main   -> to push the code to main branch 
+
+Username for 'https://github.com':   -> user id 
+
+Password for 'https://TheMannu@github.com'  -> passwaord
