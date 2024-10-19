@@ -20,7 +20,6 @@
 - Image contains only what is necessary.
 - Leverage production-ready buildpacks maintained by the community.
 
-#
 ### Deploy NodeJS application using Cloud Native Builpacks
 
 #### Pre-requisites:
