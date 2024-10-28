@@ -17,8 +17,11 @@ Debian or ubuntu Approach to download and install-docker
 - docker run hello-world
 - docker ps  => running processes 
 - docker ps -a => -a is all or archives
+---
+### Installing Docker compose for container 
 
-
+  - [Docker & Docker Compose](https://docs.google.com/document/d/1hjn_wEQLecAplZNsgGDHv5yBoWa3dofU_kVT7qJrK7U/edit?tab=t.0)
+---
 To generate this message, Docker took the following steps:
  1. The Docker client contacted the Docker daemon.
  2. The Docker daemon pulled the "hello-world" image from the Docker Hub.

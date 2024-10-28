@@ -2,9 +2,41 @@ https://github.com/DevSecOpsG/Pet-application-ci-maven.git
 
 mvn package
 
-java -jar spring-petclinic-2.3.1.jar --server.port=8083
+## starts ubuntu linux machine
+push the fileto machine usig SCP 
+- scp -i "key.pem" /home/ubuntu/spring-petclinic-3.3.0-SNAPSHOT.jar ec2-18-209-160-66.compute-1.amazonaws.com:/home/ubuntu/   -> run 
 
-------
+- sudo apt update -> run 
+
+- ssh -i "key.pem" ubuntu@ec2-18-209-160-66.compute-1.amazonaws.com  ->  login the machine 
+
+- sudo apt install openjdk-17-jre-headless  ->  install java 
+
+- java -jar spring-petclinic-3.3.0-SNAPSHOT.jar --server.port=8083  ->  run 
+
+- http://<your-server-public-ip>:8083/   ->  search in browser
+ 
+
+## To stop a running program started with 
+- java -jar spring-petclinic-3.3.0-SNAPSHOT.jar --server.port=8083
+
+- ps -aux | grep spring-petclinic
+
+- kill <PID>
+
+- kill -9 <PID>
+
+## Check if any java process is running
+
+- ps -aux | grep java
+
+## Look for the Specific Port
+- You can also check if something is still running on port 8083 by using:
+- sudo lsof -i :8083
+
+
+
+---
 
 Getting Started
 Getting Started
