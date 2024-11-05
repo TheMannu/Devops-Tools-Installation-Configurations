@@ -25,17 +25,18 @@ Part 1 Create 3 ubuntu VM’s or Docker container
 Done 
 
 Part 2 Install Ansible and requied tools in ansible_master container  
-Step 4 go to ansible_master container  update the ubuntu and install some dependencies and ansible
+    Step 4 Execute ansible_master container,update ubuntu's packages and install ansible and required dependencies for ansible
 
-docker exec -it ansible_master bash
-apt update
-apt install python-is-python3 vim iputils-ping openssh-client -y
-                           Geographical area 6 city 44
-apt install software-properties-common
-add-apt-repository --yes --update ppa:ansible/ansible
-apt install ansible
+    - docker exec -it ansible_master bash
+    - sudo apt update
+    - sudo apt install python-is-python3 vim iputils-ping openssh-client -y
+                              Geographical area 6 city 44
+    - sudo apt install software-properties-common
+    - add-apt-repository --yes --update ppa:ansible/ansible
+    - apt install ansible
 
-ansible --version
+    Verify the ansible Installation
+    - ansible --version
 
 ------------
 
