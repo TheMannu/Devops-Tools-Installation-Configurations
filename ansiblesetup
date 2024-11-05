@@ -1,12 +1,15 @@
 Part 1 Create 3 ubuntu VM’s or Docker container 
 Step 1 Go to docker playground create an  instance / node and create 3 Ubuntu  container 
 
-1st - ansible_master 
-2nd target 1
-3rd target 2
+1st --name ansible_master 
+2nd --name target1
+3rd --name target2
 
-Step 2 create containers     apt-get update && apt install docker.io -y
+Step 2 Update the packages and install docker for creating containers     
+- apt-get update && apt install docker.io -y
 
+step 2 Verify if Docker is installed successfully 
+- docker -v, docker version
 Done 
 
 
