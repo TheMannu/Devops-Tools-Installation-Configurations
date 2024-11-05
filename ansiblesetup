@@ -123,6 +123,7 @@ Step 14 - Verify if you are able to ping target machine from ansible_master
 - ping <Target machine IP>
 
 ---
+---
 Setup the ssh connection from the ansible-master machine to all the target machines
 
 Generate the SSH Key from the master machine 
@@ -158,20 +159,30 @@ Step 17 :- Create a installnginx.yaml file inside ansible dir
 - cd /etc/ansible
 - vi installnginx.yaml
 
+-> Paste this yml script
+```yml
 ---
-Paste this yml script
-
-    - hosts: all
-        tasks:
-          - name: Installing nginx of the latest version for ansible demo
-            apt: name=nginx state=latest
-
-Step 18: Run ansible playbook
+- hosts: all
+    tasks:
+      - name: Installing nginx of the latest version for ansible demo
+        apt: name=nginx state=latest
+```
+Step 18: Run ansible playbook if only one host file is there with all the target machins IP's
 
 - ansible-playbook installnginx.yaml 
 
----
+Or Run ansible playbook if more then one host file is there with bunch of target machins IP's
 
+- ansible-playbook -i hostFileName installinginx.yaml
+
+```yml
+---
+- hosts: all
+    tasks:
+      - name: Installing nginx of the latest version for ansible demo
+        apt: name=nginx state=latest
+```
+---
 - hosts: dbservers
   tasks:
     - name: rmive nginxcccc
