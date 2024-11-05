@@ -61,7 +61,7 @@ Step 6 Update and install SSH and required dependencies
   - apt-get install openssh-client openssh-server -y
 
 
-Step 7 edit sshd_config to allow SSH and root login as ansible requires
+Step 7 edit sshd_config to allow SSH and root login as required by ansible-master to connect.
 
 - cd /etc/ssh 
 - vi sshd_config
@@ -71,20 +71,23 @@ Uncomment the parameter and modify the permission to yes
 - PasswordAuthentication yes
 
 Step 8 Start the service ssh if its not running
-service ssh status
-service ssh start 
-service ssh status  
+- service ssh status
+- service ssh start 
+- service ssh status  
 
+Configuration Done For target machine named target1
 
----------------
+Step 9 Change the root password to admin 
+- passwd root
+- admin
+- admin
 
-Step 9 change the root password to admin 
-passwd root
-Admin
-Admin
+---
 
+Part 4 Perform the same all steps with second target machine named target2 and so on
+Also we can make an image of above container and use that iamge to run the replica containes if required any number of machine 
+- docker commit
 
-Part 4 Perform the same all steps with target 2 and so on
 Step 10 
 
 
