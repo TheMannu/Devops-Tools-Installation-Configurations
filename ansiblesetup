@@ -8,15 +8,17 @@ Step 1 Go to docker playground create an  instance / node and create 3 Ubuntu  c
 Step 2 Update the packages and install docker for creating containers     
 - apt-get update && apt install docker.io -y
 
-step 2 Verify if Docker is installed successfully 
+step -> Verify if Docker is installed successfully 
 - docker -v, docker version
+    Docker version 27.3.1, build ce12230
+
+Step -> Start the 3 containers using ubuntu image, one as ansible master and other 2 as target1 and target2 
+
+- docker run -itd --name ansible_master ubuntu /bin/bash
+- docker run -itd --name target1 ubuntu /bin/bash
+- docker run -itd --name target2 ubuntu /bin/bash
+
 Done 
-
-
-docker run -itd --name ansible_master ubuntu /bin/bash
-docker run -itd --name target1 ubuntu /bin/bash
-docker run -itd --name target2 ubuntu /bin/bash
-
 Step 3 check the process and name for verification 
 docker ps
 
