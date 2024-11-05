@@ -1,4 +1,5 @@
 Part 1 Create 3 ubuntu VM’s or Docker container 
+
     Step 1 Go to docker playground create an  instance / node and create 3 Ubuntu  container 
 
     1st --name ansible_master 
@@ -25,12 +26,13 @@ Part 1 Create 3 ubuntu VM’s or Docker container
 Done 
 
 Part 2 Install Ansible and requied tools in ansible_master container  
-    Step 4 Execute ansible_master container,update ubuntu's packages and install ansible and required dependencies for ansible
+
+    Step 4 Execute ansible_master container,update ubuntu's packages and install ansible and required dependencies for ansible as container are lightweight
 
     - docker exec -it ansible_master bash
     - sudo apt update
     - sudo apt install python-is-python3 vim iputils-ping openssh-client -y
-                              Geographical area 6 city 44
+                              Geographical area 5 city 44
     - sudo apt install software-properties-common
     - add-apt-repository --yes --update ppa:ansible/ansible
     - apt install ansible
@@ -40,7 +42,7 @@ Part 2 Install Ansible and requied tools in ansible_master container
 
 ------------
 
-Part 3 Setup n number of target machines (2)/ container(2)Login to Target and setup target 1 
+Part 3 Setup n number of target machines (2)/ container(2) Login to Target and setup target 1 
 
 Step 5  Login to target 2 
 docker exec -it target2 bash
