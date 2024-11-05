@@ -141,18 +141,22 @@ Number of key (s) added: 1,
 
 Done
 
-Step 16   You should be able to connect via target machine from ansible_master 
-ssh root@172.17.0.3
+Step 16   You should be able to connect to target machine as root user from ansible_master using 
+
+- ssh root@172.17.0.2
+
+Now We are in the target machine one named target1
 
 verify nginx is there or not 
 
-service nginx status
+- service nginx status
 
-Part 8 Now create a ansible playbook  and run  ansible-playbook 
+Part 8 Now we will create a ansible playbook and run ansible-playbook for installing nginx on target machine from ansible-master machine
 
-Step 17 :- create a installnginx.yaml file in 
-cd /etc/ansible
-vi  installnginx.yaml
+Step 17 :- Create a installnginx.yaml file inside ansible dir
+
+- cd /etc/ansible
+- vi installnginx.yaml
 
 ---
 - hosts: all
@@ -162,7 +166,7 @@ vi  installnginx.yaml
 
 Step 18 :   Run ansible playbook
 
-ansible-playbook installnginx.yaml 
+- ansible-playbook installnginx.yaml 
 
 ---
 - hosts: dbservers
