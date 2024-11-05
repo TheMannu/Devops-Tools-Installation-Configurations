@@ -159,16 +159,19 @@ Step 17 :- Create a installnginx.yaml file inside ansible dir
 - vi installnginx.yaml
 
 ---
-- hosts: all
-  tasks:
-    - name: ensure nginx is at the latest version
-      apt: name=nginx state=latest
+Paste this yml script
 
-Step 18 :   Run ansible playbook
+    - hosts: all
+        tasks:
+          - name: Installing nginx of the latest version for ansible demo
+            apt: name=nginx state=latest
+
+Step 18: Run ansible playbook
 
 - ansible-playbook installnginx.yaml 
 
 ---
+
 - hosts: dbservers
   tasks:
     - name: rmive nginxcccc
