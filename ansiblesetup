@@ -40,8 +40,6 @@ Part 2 Install Ansible and requied tools in ansible_master container
 
     Verify the ansible Installation
     - ansible --version
-    - ansible version
-    - ansible -v
      
     Exit from ansible-master
 
@@ -63,69 +61,85 @@ Step 6 Update and install SSH and required dependencies
 
 Step 7 edit sshd_config to allow SSH and root login as required by ansible-master to connect.
 
-- cd /etc/ssh 
-- vi sshd_config
+  - cd /etc/ssh 
+  - vi sshd_config
 Uncomment the parameter and modify the permission to yes
-- Port 22 
-- PermitRootLogin yes 
-- PasswordAuthentication yes
+  - Port 22 
+  - PermitRootLogin yes 
+  - PasswordAuthentication yes
 
 Step 8 Start the service ssh if its not running
-- service ssh status
-- service ssh start 
-- service ssh status  
+  - service ssh status
+  - service ssh start 
+  - service ssh status  
 
 Configuration Done For target machine named target1
 
 Step 9 Change the root password to admin 
-- passwd root
-- admin
-- admin
+  - passwd root
+  - admin
+  - admin
 
 ---
 
 Part 4 Perform the same all steps with second target machine named target2 and so on
-Also we can make an image of above container and use that iamge to run the replica containes if required any number of machine 
-- docker commit
+Also we can make an image of above container and use that iamge to run the replica containes if required any number of machine
 
 Step 10 
-
+  - docker commit
 
 Part 5  Find the IP’s of all targets container  for adding in ansible host file 
 Come out to docker node and run the command 
 
 Step 11
-sudo docker inspect target1
-sudo docker inspect target2 
+  - sudo docker inspect target1
+  - sudo docker inspect target2 
 
 
-You will find the IPAddress like 172.17.0.3
+You will find the IPAddress like 172.17.0.2 , 172.17.0.3
+
+Done 
 
 -------------
 
-Part 6 setup ansible_master for ssh connectivity  and adding IP’s in hostfile
+Part 6 Setup ansible_master for ssh connectivity  and adding IP’s in hostfile
 
+Step 12  Go to ansible_master
 
-Step 12  go to ansible_master
+  - docker exec -it ansible_master bash
 
-docker exec -it ansible_master bash
+Step 13 - Edit ansible host file of ansible-master and provide the target machines IP’s
 
-Step 13 edit ansible host file and provide the target IP’s
-cd /etc/ansible/
-ls
-Go to hosts file   
-provide the IP of the target machines   like 172.17.0.4
+  - cd /etc/ansible/
+  - ls
+  - vi hosts
 
-Step 14 verify as you are able to ping target machine from ansible_master
+  Go to hosts file Edit and Just provide the IP of the target machines like 
+  - 172.17.0.2
+  - 172.17.0.3
 
-Ping  <Target machine IP>
+Step 14 - Verify if you are able to ping target machine from ansible_master
 
-Part 7 copy the generated ssh keys from ansible_master to target machine and check the connectivity
+- ping <Target machine IP>
 
-Step 15 Copy the generated key from ansible_master to remote target 
+---
+Setup the ssh connection from the ansible-master machine to all the target machines
 
-ssh-copy-id root@172.17.0.4
-yes
+Generate the SSH Key from the master machine 
+- ssh-keygen
+- -y
+- pasword ENTER
+
+Part 7 - Copy the generated ssh keys from ansible_master to target machine and check the connectivity
+
+Step 15 Copy and move the generated key from ansible_master to remote target 
+
+- ssh-copy-id root@172.17.0.2
+- yes
+
+Number of key (s) added: 1,
+
+Done
 
 Step 16   You should be able to connect via target machine from ansible_master 
 ssh root@172.17.0.3
