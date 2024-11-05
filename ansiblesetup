@@ -176,12 +176,47 @@ Or Run ansible playbook if more then one host file is there with bunch of target
 - ansible-playbook -i hostFileName installinginx.yaml
 
 ```yml
----
-- hosts: all
-    tasks:
-      - name: Installing nginx of the latest version for ansible demo
-        apt: name=nginx state=latest
+  ---
+  - hosts: all
+      tasks:
+        - name: Installing nginx latest and running the nginx
+          apt: name=nginx state=latest
+            name: Making nginx Active or Running
+            service: 
+              name: nginx
+              state: started
 ```
+---
+---
+We can also uninstall the nginx from the target machine by running the playbook 
+Again
+
+- cd /etc/ansible
+- vi uninstallnginx.yaml
+
+```yml
+  — hosts: all
+      tasks:
+        — name: UnInstall nginx 
+          apt: name=nginx state=absent
+```
+Or 
+
+```yml
+- hosts: all
+  tasks:
+    - name: stop the runnig nginx
+      service:
+        name: nginx
+        state: stopped
+    - name: Uninstall the stoped nginx and ensune nginx is not installed
+      apt: name=nginx state=absent
+```
+-> Run ansible playbook if only one host file is there with all the target machins IP's
+
+- ansible-playbook uninstallnginx.yaml 
+
+----------------------------------------------
 ---
 - hosts: dbservers
   tasks:
