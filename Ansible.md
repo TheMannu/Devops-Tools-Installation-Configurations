@@ -217,6 +217,15 @@ Or
 - ansible-playbook uninstallnginx.yaml 
 
 ----------------------------------------------
+https://github.com/DevSecOpsG/ansibleplaybookwithroles
+
+https://github.com/geerlingguy/ansible-for-devops
+
+https://github.com/ansible/ansible-examples
+
+https://www.middlewareinventory.com/blog/ansible-ad-hoc-commands/
+
+---
 ---
 - hosts: dbservers
   tasks:
