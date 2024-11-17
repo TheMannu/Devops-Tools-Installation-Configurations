@@ -3,7 +3,9 @@ https://github.com/DevSecOpsG/Pet-application-ci-maven.git
 mvn package
 
 ## starts ubuntu linux machine
-push the fileto machine usig SCP 
+
+push the file to machine usig SCP if not build on same machine
+
 - scp -i "key.pem" /home/ubuntu/spring-petclinic-3.3.0-SNAPSHOT.jar ec2-18-209-160-66.compute-1.amazonaws.com:/home/ubuntu/   -> run 
 
 - sudo apt update -> run 
