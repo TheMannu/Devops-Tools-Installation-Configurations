@@ -1,4 +1,4 @@
-###############OS - Amazon Linux################
+### OS - Amazon Linux
 
 ```
 sudo yum install -y yum-utils
@@ -13,7 +13,7 @@ sudo yum -y install terraform
 terraform -help
 ```
 
-Here is a step-by-step guide for downloading and installing Terraform on Windows:
+## OS Windows:
 
 ### 1. **Download Terraform Binary**
    - Visit the [HashiCorp Terraform Download Page](https://developer.hashicorp.com/terraform/downloads) for Windows.
@@ -37,7 +37,7 @@ Here is a step-by-step guide for downloading and installing Terraform on Windows
    - Open **Command Prompt** (CMD).
    - Run the following command to verify Terraform is installed:
      ```bash
-     terraform version
+     terraform --version
      ```
    - This should display the installed version of Terraform, confirming that it was installed successfully.
 
