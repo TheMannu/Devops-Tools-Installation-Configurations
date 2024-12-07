@@ -54,3 +54,15 @@ Prometheus sends alerts to an alert manager for further action:
 - **Grafana:** Offers a user-friendly interface for visualizing metrics.
 
 
+
+### **Grafana**
+Grafana is an open-source visualization tool for metrics analysis. It helps simplify complex data using dashboards and supports features like:
+- **Alerts:** Notifications based on metrics.
+- **Collaboration:** Share dashboards with teams.
+- **Time-Series Analytics:** Real-time insights.
+
+#### **Integration with Prometheus:**
+- Prometheus pulls and stores data from sources.
+- Grafana reads this data and visualizes it for users.
+
+---
