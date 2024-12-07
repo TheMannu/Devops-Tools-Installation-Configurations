@@ -66,3 +66,55 @@ Grafana is an open-source visualization tool for metrics analysis. It helps simp
 - Grafana reads this data and visualizes it for users.
 
 ---
+
+# Helm for Kubernetes Monitoring
+
+Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies application deployment using charts.
+
+### Steps for Prometheus and Grafana Setup with Helm:
+1. **Create a GKE Cluster:**
+   Set up a Kubernetes cluster.
+   
+2. **Create a Monitoring Namespace:**
+   ```bash
+   kubectl create ns monitor
+   ```
+
+3. **Add Helm Repo:**
+   ```bash
+   helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+   helm repo update
+   ```
+
+4. **Install Prometheus and Grafana:**
+   ```bash
+   helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitor
+   ```
+
+5. **Verify Installation:**
+   ```bash
+   kubectl get pods -n monitor
+   ```
+
+6. **Expose Grafana Service:**
+   ```bash
+   kubectl expose deployment kube-prometheus-stack-grafana --port=3000 --target-port=3000 --name=grafana --type=LoadBalancer -n monitor
+   ```
+
+7. **Check Service and Login to Grafana:**
+   ```bash
+   kubectl get svc -n monitor
+   ```
+   Default login credentials: `admin/prom-operator`.
+
+8. **Explore Dashboards:**
+   Preconfigured dashboards available:
+   - General / Kubernetes / Compute Resources / Cluster
+   - General / Kubernetes / Compute Resources / Namespace (Pods)
+
+9. **Delete Helm Chart (if needed):**
+   ```bash
+   helm uninstall [RELEASE_NAME]
+   ```
+
+---
