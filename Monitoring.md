@@ -118,3 +118,11 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    ```
 
 ---
+# Benefits of Prometheus and Grafana Integration
+
+- **Prometheus:** Handles data collection and alerting.
+- **Grafana:** Offers advanced data visualization and user-friendly dashboards.
+- Together, they form a robust monitoring stack for analyzing and visualizing time-series data efficiently.
+
+![Prometheus and Grafana Integration](<Screenshot 2024-11-26 153511.png>)
+```
