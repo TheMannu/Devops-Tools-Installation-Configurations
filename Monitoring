@@ -30,3 +30,10 @@ Promethus contains Three Components
 - HTTP derver or Web Server Or API server 
   - It displays the matrics in human redable format so the the user can understand the data or matrics comming from the servers in grapical ways
 
+
+Targeted Resources
+- Servers of Linux or Windos - cpu status /memory /disk usages
+- Services - excetions
+- Applications
+- Apache servers  - http request count / duration
+
