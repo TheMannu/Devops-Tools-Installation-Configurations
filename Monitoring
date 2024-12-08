@@ -1,0 +1,6 @@
+Why Monitoring requires
+
+- If server's down logs deleted automatically.
+- if big environment difficulty to check logs in all server's manually
+- Attacker's are smart whatever they want to do they did and  they will remove to logs
+- If we will keep old logs in server we need big machine or machine will slow
