@@ -14,3 +14,8 @@ This means in the default case, you need to give access to the server to an indi
 
 - Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
 - Create, explore, and share dashboards with your team and foster a data driven culture
+
+
+What is prometeus
+
+is an open source toolkit for monitoring and alerting for hardware lavel as well as software, It is writen in go language but understand all languages using client libraries
