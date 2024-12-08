@@ -19,3 +19,7 @@ This means in the default case, you need to give access to the server to an indi
 What is prometeus
 
 is an open source toolkit for monitoring and alerting for hardware lavel as well as software, It is writen in go language but understand all languages using client libraries
+
+Promethus contains Three Components
+- Data Retival Worker 
+  - this data retrival worker receives data from the target resources in form of HTTP Endpoint and if the Endpoint in not available the we use a exporter to fetch data or matrix from the target resource and convert to the http endpoint so that retrival worker can understand the the matric  
