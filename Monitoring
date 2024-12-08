@@ -8,3 +8,9 @@ Why Monitoring requires
 A server can contain a lot of log files, from system logs to the application logs.
 During debugging, it is important to have log files at hand.
 This means in the default case, you need to give access to the server to an individual who wants to debug and that's not possible or a good approach
+
+- Prometheus is designed for reliability, to be the system you o to during an outage to allow you to quickly diagnose problems.
+- Each Prometheus server is standalone, not depending on network storage or other remote services.
+
+- Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
+- Create, explore, and share dashboards with your team and foster a data driven culture
