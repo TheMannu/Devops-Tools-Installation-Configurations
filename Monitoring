@@ -4,3 +4,7 @@ Why Monitoring requires
 - if big environment difficulty to check logs in all server's manually
 - Attacker's are smart whatever they want to do they did and  they will remove to logs
 - If we will keep old logs in server we need big machine or machine will slow
+
+A server can contain a lot of log files, from system logs to the application logs.
+During debugging, it is important to have log files at hand.
+This means in the default case, you need to give access to the server to an individual who wants to debug and that's not possible or a good approach
