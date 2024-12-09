@@ -43,3 +43,16 @@ Push Gateways
   
 Prometheus Yaml 
 - we describe components and parameters this file for configuring prometheus to collect required data from the software eg. Kubernetes Cluster and the Harware eg ec2 machine where cluster is deployed
+
+
+global :
+scrape_interval: 15s
+evaluation interval: 15s
+rule files:
+" rules. yml "
+scrape_configs :
+- job_name:
+"prometheus"
+static_configs :
+- targets: ["localhost:8080"]
+
