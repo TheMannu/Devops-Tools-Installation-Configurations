@@ -60,3 +60,8 @@ static_configs :
   - email
   - notification
 
+- Visulaisation
+  - web ui is given by default with prometheus for query using promql Query language
+  - Grafana gives beter ui for end users to visulaize the monitoring matrics
+  
+  ![Prometheus](<Screenshot 2024-11-26 153511.png>)
