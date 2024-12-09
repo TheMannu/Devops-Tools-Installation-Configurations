@@ -37,3 +37,7 @@ Targeted Resources
 - Applications
 - Apache servers  - http request count / duration
 
+
+Push Gateways
+ - it collects data or matrics from the short lived jobs like - update, installation, patching works, backup etc which works for short period of time and export is not able to collect data from these so push gateways helps in doing this by collecting and storing matrics of these short lived jobs and send it to exporter whenever required
+ 
