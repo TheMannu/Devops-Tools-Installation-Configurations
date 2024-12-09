@@ -65,3 +65,16 @@ static_configs :
   - Grafana gives beter ui for end users to visulaize the monitoring matrics
   
   ![Prometheus](<Screenshot 2024-11-26 153511.png>)
+
+Helm
+Helm, it's a package manager for Kubernetes - it is just like APT/YUM for Debian/Ubuntu.
+The CNCF maintains the project in collaboration with Microsoft, Google, Bitnami, and the
+Helm contributor community.
+With the help of Helm, we can manage Kubernetes applications using "Helm Charts".
+The role of Charts is defining, installing, Rd upgrading Kubernetes applica 0 ns.
+The Helm community develops and shares charts on Helm hub.
+From web servers, CI/CD tools, databases, and security tools to web apps,
+Helm hub hosts a distributed repositories of Kubernetes-ready apps.
+To install Helm, start by downloading the last version, unpack it and move 'helm" binary to
+"/usr/local/bin/helm":
+
