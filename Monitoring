@@ -40,4 +40,6 @@ Targeted Resources
 
 Push Gateways
  - it collects data or matrics from the short lived jobs like - update, installation, patching works, backup etc which works for short period of time and export is not able to collect data from these so push gateways helps in doing this by collecting and storing matrics of these short lived jobs and send it to exporter whenever required
- 
+  
+Prometheus Yaml 
+- we describe components and parameters this file for configuring prometheus to collect required data from the software eg. Kubernetes Cluster and the Harware eg ec2 machine where cluster is deployed
