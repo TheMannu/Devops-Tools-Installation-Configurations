@@ -146,3 +146,6 @@ Step 9 Explore Autoconfigured grafana dashboards
 Some Dashbords
 General / Kubernetes / Compute Resources / Cluster
 General / Kubernetes / Compute Resources / Namespace (Pods)
+
+Step 10 Delete the Helm chart
+helm uninstall [RELEASE_NAME]
