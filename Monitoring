@@ -137,3 +137,12 @@ or
 
 kubectl expose deployment kube-prometheus-stack-grafana --port=3000 —target-port=3000
 --name=grafana --type=LoadBalancer -n monitor
+
+Step 8 verify service and unlock grafana
+kubectl get svc -n monitor
+admin/prom-operator
+
+Step 9 Explore Autoconfigured grafana dashboards
+Some Dashbords
+General / Kubernetes / Compute Resources / Cluster
+General / Kubernetes / Compute Resources / Namespace (Pods)
