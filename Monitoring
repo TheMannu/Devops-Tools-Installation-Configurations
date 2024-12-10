@@ -129,3 +129,11 @@ helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --
 
 Step 6 You can verify your installation using:
 kubectl get pods -n monitor
+Step 7 create a service of grafana
+
+Grafana Service :- create a service of on 3000 port as a loadbalancer
+
+or
+
+kubectl expose deployment kube-prometheus-stack-grafana --port=3000 —target-port=3000
+--name=grafana --type=LoadBalancer -n monitor
