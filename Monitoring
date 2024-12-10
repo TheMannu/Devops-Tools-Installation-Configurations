@@ -100,3 +100,13 @@ It stores the majority of the data locally after scrapping metrics, and after th
 it runs rules over data.
 It came into existence because of the need for monitoring multiple microservices running within
 the s stems.
+
+Monitoring-kubernetes-tutorial-using-grafana-and-Prometheus
+
+Step 1 Create a GKE cluster
+
+Step 2 Create a Namespace monitor (good practice)
+kubectl create ns monitor
+
+Step 3 go to helm repo (code) of Promothus and grafana Helm code is available on
+https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
