@@ -110,3 +110,12 @@ kubectl create ns monitor
 
 Step 3 go to helm repo (code) of Promothus and grafana Helm code is available on
 https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+
+Step 4 Add theopo in helm
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+
+Step 5 Install the Grafana and Promothus
+helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitor 
+ 
+if the above command faces error the paste the nxt commnad
