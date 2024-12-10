@@ -122,3 +122,10 @@ if the above command faces error the paste the nxt commnad
 
 
 helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitor —set prometheusSpec.scrapeConfigNamespaceSelector-null.
+
+"kube-prometheus-stack" is the name of the release. You can change this if you want.
+"prometheus-community/kube-prometheus-stack" is the name of the chart.
+"monitor" is the name of the namespace where we are going to deploy the operator.
+
+Step 6 You can verify your installation using:
+kubectl get pods -n monitor
