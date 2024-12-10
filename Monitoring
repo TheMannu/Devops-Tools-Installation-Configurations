@@ -78,3 +78,11 @@ Helm hub hosts a distributed repositories of Kubernetes-ready apps.
 To install Helm, start by downloading the last version, unpack it and move 'helm" binary to
 "/usr/local/bin/helm":
 
+
+Grafana and Prometheus
+The combination of OSS grafana and Prometheus is becoming a more and more common monitoring
+stack used by DevOps teams for storing and visualizing time series data.
+Prometheus acts as the storage backend and open source grafana as the interface for analysis and
+visualization
+Prometheus pulls the data/metrics from the source and save in DB
+Grafana read the data/metrics from the Prometheus and shows in UI.
