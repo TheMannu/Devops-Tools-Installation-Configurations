@@ -119,3 +119,6 @@ Step 5 Install the Grafana and Promothus
 helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitor 
  
 if the above command faces error the paste the nxt commnad
+
+
+helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitor —set prometheusSpec.scrapeConfigNamespaceSelector-null.
