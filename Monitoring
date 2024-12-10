@@ -86,3 +86,17 @@ Prometheus acts as the storage backend and open source grafana as the interface 
 visualization
 Prometheus pulls the data/metrics from the source and save in DB
 Grafana read the data/metrics from the Prometheus and shows in UI.
+
+Grafana and Prometheus
+
+Grafana and Prometheus, both help us in tackling issues related to complex data in a simplified
+manner.
+Grafana is an open-source visualization software, which helps the users to understand the
+complex data with the help of data metrics.
+It equips the users with features like alert systems, sharing of the dashboard.
+It also helps users in studying time-series/ Real time analytics.
+Prometheus is an open-source event monitoring and alerting tool.
+It stores the majority of the data locally after scrapping metrics, and after that, to generate alerts,
+it runs rules over data.
+It came into existence because of the need for monitoring multiple microservices running within
+the s stems.
