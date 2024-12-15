@@ -9,3 +9,7 @@ EBS - Elastic Block Storage
 7) EBS and EC2 instance should be in same AZs then only it can be attached
 8) Size of EBS can be increased without stopping the instance but can not be decreased as downgrading in not allowed 
 9) We can move EBS from one AZ to another AZ by taking backup as Snapshot
+
+10) Instance can be created with root as instance store in this case data gets deleted even if the instance is stoped or restarted 
+11) So Instance Store as EBS when data is needed to be temporary but the fastest read write operations and further not required 
+12) Whenever we create an EBS volume the AWS by default creates a replica and if any thing happens to the EBS the it automatically connects to the replica ebs
