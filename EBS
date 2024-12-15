@@ -38,3 +38,13 @@ But do not format as formating can loose all the data inside the EBS
 so again to mount to this instance we will create another mount point and then mount 
 - mkdir /data
 - moount  /dev/xvdf  /data
+
+
+Resize the EBS Volumes and file system
+- select the volume to resize 
+- click action  -  modify volume - increse to desired size
+- in cli check  -  lsblk      -> it shows the increased ebs volme
+- but -  df -h                     ->   does not show  the increased volume as the incresed size in not formated 
+- resize2fs  /dev/xvdf      ->  it will format the incresed volume also
+
+Making EBS as Root Volume
