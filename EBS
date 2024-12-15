@@ -4,3 +4,8 @@ EBS - Elastic Block Storage
 3) The OS is installed on root volume (EBS) that is attached to ec2 using SAN
 4) Read write operations on ebs do faces latency but is highly negligible.
 5) One comupte machine or ec2 can have multiple EBS volumes attached to it and even if the machine goes down the volume will keep the data stored as persistent storage 
+
+6) Specific types of EBS (Io2 and Io1) can be attached with multiple EC2 instances 
+7) EBS and EC2 instance should be in same AZs then only it can be attached
+8) Size of EBS can be increased without stopping the instance but can not be decreased as downgrading in not allowed 
+9) We can move EBS from one AZ to another AZ by taking backup as Snapshot
