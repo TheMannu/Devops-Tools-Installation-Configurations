@@ -1,0 +1,6 @@
+EBS - Elastic Block Storage
+1) We can create an EBS in  SAN (Storage Area Network) and can be mounted on our machine using network that can be further used by the machine as storage
+2) In Windows EBS is C drive and in Linux it is known as Root Volume
+3) The OS is installed on root volume (EBS) that is attached to ec2 using SAN
+4) Read write operations on ebs do faces latency but is highly negligible.
+5) One comupte machine or ec2 can have multiple EBS volumes attached to it and even if the machine goes down the volume will keep the data stored as persistent storage 
