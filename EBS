@@ -51,3 +51,9 @@ Resize the EBS Volumes and file system
 - resize2fs  /dev/xvdf      ->  it will format the incresed volume also
 
 Making EBS as Root Volume
+
+
+Resize the Root EBS Volumes and file system
+- select the root volume to resize
+- click action  -  modify volume - increase to desired size
+- Inside CLI check  -  lsblk        -> it shows the increased Root EBS Volume
