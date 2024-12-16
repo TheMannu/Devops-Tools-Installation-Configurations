@@ -28,16 +28,19 @@ To remove the EBS volume from the instance
 - umount  /test/
 Now it can be detached from ec2 instances using AWS console 
 
-Now if we want to attach same EBS with another Instantance in same AZ the can be attached to instance 
+Now if we want to attach same EBS with another Instantance in same AZ the can be attached to instance from the console
+
 - lsblk                                              -> to check is the EBS is attached to the instance
 
 But do not format as formating can loose all the data inside the EBS 
 
-- file -s  /dev/xvdf                            ->  else check the file system inside the EBS
+- file -s  /dev/xvdf  or     df -Th           ->  else check the file system inside the EBS
 
 so again to mount to this instance we will create another mount point and then mount 
 - mkdir /data
-- moount  /dev/xvdf  /data
+- mount  /dev/xvdf  /data
+- cd /data/
+- ls          -> will show the existing data on the EBS volume
 
 
 Resize the EBS Volumes and file system
