@@ -60,3 +60,6 @@ Resize the Root EBS Volumes and file system
 - But  -  df -h                     -> this does not shows the incresed volume as it is not formated as per previous attached volume
 - sudo file -s /dev/xvda1  -> To check File Format of  Previous formated file or (-  df -Th   can also be used to cehck file format)
 - To check file system  -  sudo fdisk -l /dev/nvme0n1
+- Run  -  sudo growpart  /dev/xvda 1      (growpart /dev/nvme0n1 1)                 -> the partions has been grown to this file format  (If file format is xfs  -  then  -  xfs_growfs)
+- Run  -  resize2fs  /dev/xvda1                -> Now the complete EBS volume is formated 
+- Check with   -  df -h                             -> Now the increased vole of EBS is visible 
