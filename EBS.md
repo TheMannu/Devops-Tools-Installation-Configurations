@@ -70,3 +70,7 @@ Resize the Root EBS Volumes and file system
 - Run  -  resize2fs  /dev/xvda1                -> Now the complete EBS volume is formated 
 - Check with   -  df -h                             -> Now the increased vole of EBS is visible 
 
+
+Attache an EBS volume to multiple EC2
+- Create the EBS Volume of desired Sizethat u want to attach with Multiple EC2 instances
+- The EBS volumes should Support Multi Attache and also should be Enabled such as "Io1 & Io2"
