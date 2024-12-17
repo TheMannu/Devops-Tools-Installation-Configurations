@@ -63,9 +63,10 @@ Resize the Root EBS Volumes and file system
 - select the root volume to resize
 - click action  -  modify volume - increase to desired size
 - Inside CLI check  -  lsblk        -> it shows the increased Root EBS Volume
-- But  -  df -h                     -> this does not shows the incresed volume as it is not formated as per previous attached volume
-- sudo file -s /dev/xvda1  -> To check File Format of  Previous formated file or (-  df -Th   can also be used to cehck file format)
+- But  -  df -h                              -> this does not shows the incresed volume as it is not formated as per previous attached volume
+- To check   -  sudo file -s /dev/xvda1   (  df -Th   can also be used to cehck file format)  -> File Format of  Previous formated file or 
 - To check file system  -  sudo fdisk -l /dev/nvme0n1
-- Run  -  sudo growpart  /dev/xvda 1      (growpart /dev/nvme0n1 1)                 -> the partions has been grown to this file format  (If file format is xfs  -  then  -  xfs_growfs)
+- Run  -  sudo growpart  /dev/xvda 1      (growpart /dev/nvme0n1 1)  -> the partions has been grown to this file format  (If file system is xfs  -  then  -  xfs_growfs)
 - Run  -  resize2fs  /dev/xvda1                -> Now the complete EBS volume is formated 
 - Check with   -  df -h                             -> Now the increased vole of EBS is visible 
+
