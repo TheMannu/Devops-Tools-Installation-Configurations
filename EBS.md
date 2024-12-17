@@ -74,3 +74,6 @@ Resize the Root EBS Volumes and file system
 Attache an EBS volume to multiple EC2
 - Create the EBS Volume of desired Sizethat u want to attach with Multiple EC2 instances
 - The EBS volumes should Support Multi Attache and also should be Enabled such as "Io1 & Io2"
+- The EC2 Instances must on "Nitro" hypervisor systems  Rather then "xen" hypervisors (do check the EC2 instance types online for Nitro system instance types)
+-  If the instance is not on Nitro system then stop the instance and change to Nitro types 
+   -  Select the instance from console 
