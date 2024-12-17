@@ -52,6 +52,10 @@ Resize the EBS Volumes and file system
 
 Making EBS as Root Volume
 
+Trick to decrese the EBS volume
+- attache a new volume with smaller size 
+- copy the data from larger volume to smaller volume 
+
 
 Resize the Root EBS Volumes and file system
 - select the root volume to resize
