@@ -77,3 +77,5 @@ Attache an EBS volume to multiple EC2
 - The EC2 Instances must on "Nitro" hypervisor systems  Rather then "xen" hypervisors (do check the EC2 instance types online for Nitro system instance types)
 -  If the instance is not on Nitro system then stop the instance and change to Nitro types 
    -  Select the instance from console 
+   -  Select - action - Instance Setting - Change Instance Type - Select the Nitro type instance - Apply 
+   -  Restart the machines 
