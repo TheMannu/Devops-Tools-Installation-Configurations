@@ -82,3 +82,7 @@ Attache an EBS volume to multiple EC2
 - Now Attach the ebs Volume with All the Insatnce Using AWS console
 - Now Connect to the EC2 instaces CLI and Check with lsblk
 - And the File System be should be Cluster aware   that need to be formated on EBS for usability (as exe4 or xfs might not work over here)
+
+Types of EBS Volems
+-  
+Volume type                       	      gp3        	       gp2       	io2 Block Express 3      	      io1        
