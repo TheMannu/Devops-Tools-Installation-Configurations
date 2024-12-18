@@ -79,3 +79,5 @@ Attache an EBS volume to multiple EC2
    -  Select the instance from console 
    -  Select - action - Instance Setting - Change Instance Type - Select the Nitro type instance - Apply 
    -  Restart the machines 
+- Now Attach the ebs Volume with All the Insatnce Using AWS console
+- Now Connect to the EC2 instaces CLI and Check with lsblk
