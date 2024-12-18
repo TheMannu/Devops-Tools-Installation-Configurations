@@ -90,3 +90,4 @@ Volume size	                                  1 GiB - 16 TiB	                   
 Max IOPS	                    16,000 (64 KiB I/O 6)	   16,000 (16 KiB I/O 6)	    256,000 5 (16 KiB I/O 6)	    64,000 (16 KiB I/O 6)
 Max throughput	                    1,000 MiB/s	         250 MiB/s 1	             4,000 MiB/s	                1,000 MiB/s 2
 Amazon EBS Multi-attach	                   Not supported	                                         Supported
+NVMe reservations	                    Not supported	                            Supported	                   Not supported
