@@ -93,3 +93,7 @@ Amazon EBS Multi-attach	                   Not supported	                       
 NVMe reservations	                    Not supported	                            Supported	                   Not supported
 
 - https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html
+
+
+Snapshot
+Snapshots are used as backup of the current configuration of databases or EBS volumes and is stored in S3 in a dedicated region
