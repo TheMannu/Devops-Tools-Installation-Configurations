@@ -103,3 +103,6 @@ Snapshots takes Backups in incremental manner
 
 Lifecycle Manager
 Life CYcle is used for taking the snapshots on a regular intervel based on Lifecycle manager policy defined by us.
+
+Recycle Bin
+Recycle is just to keep the deleted snapshots up to user defined retaintion periods
