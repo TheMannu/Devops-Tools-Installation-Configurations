@@ -109,3 +109,6 @@ Recycle is just to keep the deleted snapshots up to user defined retaintion peri
 
 Copy snapshots and move to another region
 Select The Snapshot - Action - Copy snapshot - Select the Region - Click Copy Snapshot
+
+Encryption of Snapshot
+If the source snapshot is already encrypted or is account default to encryption the copy will also be encrypted and cannot be changed
