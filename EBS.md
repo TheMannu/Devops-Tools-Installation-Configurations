@@ -106,3 +106,6 @@ Life CYcle is used for taking the snapshots on a regular intervel based on Lifec
 
 Recycle Bin
 Recycle is just to keep the deleted snapshots up to user defined retaintion periods
+
+Copy snapshots and move to another region
+Select The Snapshot - Action - Copy snapshot - Select the Region - Click Copy Snapshot
