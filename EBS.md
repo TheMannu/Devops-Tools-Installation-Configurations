@@ -99,3 +99,7 @@ Snapshot
 Snapshots are used as backup of the current configuration of databases or EBS volumes and is stored in S3 in a dedicated region
 Snapshots can be used to create a EBS volume of same configuration in different in different region or availability Zone 
 Snapshots takes Backups in incremental manner
+
+
+Lifecycle Manager
+Life CYcle is used for taking the snapshots on a regular intervel based on Lifecycle manager policy defined by us.
