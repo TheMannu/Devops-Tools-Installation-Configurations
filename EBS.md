@@ -121,3 +121,6 @@ we can make encryption enabled while taking the snapshots
 we can enable encryption while copying the snapshot
 but once the EBS or Snapshot is encrypted it can not be unencrypted an any stage
 if require to have unencrypted the we need to create new EBS or new snapshot of unencrypted EBS
+
+Fast Snapshot Restore (FSR)
+FSR increases the speed of restoring EBS using Snapshots that is stored in S3
