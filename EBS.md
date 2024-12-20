@@ -124,3 +124,4 @@ if require to have unencrypted the we need to create new EBS or new snapshot of 
 
 Fast Snapshot Restore (FSR)
 FSR increases the speed of restoring EBS using Snapshots that is stored in S3
+Need to be enabled for each Sanpshot before restoration
