@@ -118,3 +118,5 @@ and volume from that snapshot will also be encryted
 while sharing encryted snapshot with another account we need to have permission to use KMS key associated with it 
 we can make encryption enabled by default from EC2 console setting
 we can make encryption enabled while taking the snapshots
+we can enable encryption while copying the snapshot
+but once the EBS or Snapshot is encrypted it can not be unencrypted an any stage
