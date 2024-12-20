@@ -112,3 +112,6 @@ Select The Snapshot - Action - Copy snapshot - Select the Region - Click Copy Sn
 
 Encryption of Snapshot
 If the source snapshot is already encrypted or is account default to encryption the copy will also be encrypted and cannot be changed
+If the EBS is encrypted then the data in transit is also encrypted 
+Snapshot of the EBS will also get encrypted
+and volume from that snapshot will also be encryted
