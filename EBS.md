@@ -126,3 +126,4 @@ Fast Snapshot Restore (FSR)
 FSR increases the speed of restoring EBS using Snapshots that is stored in S3
 Need to be enabled for each Sanpshot before restoration
 It can be enabled for snapshots up to 16 TiB in size.
+Volumes with performance up to 64,000 IOPS and 1,000 MiB/s receive full FSR benefits.
