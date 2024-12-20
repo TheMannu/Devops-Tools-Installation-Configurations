@@ -120,3 +120,4 @@ we can make encryption enabled by default from EC2 console setting
 we can make encryption enabled while taking the snapshots
 we can enable encryption while copying the snapshot
 but once the EBS or Snapshot is encrypted it can not be unencrypted an any stage
+if require to have unencrypted the we need to create new EBS or new snapshot of unencrypted EBS
