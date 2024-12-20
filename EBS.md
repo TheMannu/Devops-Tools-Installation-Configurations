@@ -115,3 +115,6 @@ If the source snapshot is already encrypted or is account default to encryption 
 If the EBS is encrypted then the data in transit is also encrypted 
 Snapshot of the EBS will also get encrypted
 and volume from that snapshot will also be encryted
+while sharing encryted snapshot with another account we need to have permission to use KMS key associated with it 
+we can make encryption enabled by default from EC2 console setting
+we can make encryption enabled while taking the snapshots
