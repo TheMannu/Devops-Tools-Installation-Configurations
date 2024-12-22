@@ -21,3 +21,5 @@ Connect to the ec2 instance in same availability zone
 -  apt install amazon-efs-utils -y      -> Installed the efs utill package
 -  mkdir efs                                       -> make folder for mounting
 -  
+-  copy the command from the efc connect console and paste and enter
+-  ll    
