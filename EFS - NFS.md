@@ -13,3 +13,8 @@ Connect to the ec2 instance in same availability zone
 -  ll   
 -  cd efs                                             -> list all file with permisions
 -  touch file {1..6}                             -> make 6 files with file1, file2 and so on
+
+For second Instance 
+- select EFS  - click view details - select attach - select Mount via IP - select Availability zone 
+Connect to the ec2 instance in same availability zone
+-  sudo -i
