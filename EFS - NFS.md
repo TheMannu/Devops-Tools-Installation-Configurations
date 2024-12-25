@@ -23,3 +23,7 @@ Connect to the ec2 instance in same availability zone
 -  
 -  copy the command from the efc connect console and paste and enter
 -  ll    
+
+NFS Server
+-  yum list installed I grep nfs-utils        -> to check if nfs utils is insatlled or not
+-  yum list installed I grep rpcbind         -> to check if rpc bind utils is insatlled or not
