@@ -27,3 +27,10 @@ Connect to the ec2 instance in same availability zone
 NFS Server
 -  yum list installed I grep nfs-utils        -> to check if nfs utils is insatlled or not
 -  yum list installed I grep rpcbind         -> to check if rpc bind utils is insatlled or not
+
+
+-  mkdir /share
+- touch /share/file.txt
+-  vim /etc/exports
+    i  -  /share (ip addr - of another server)(rw, sync)   
+    :wq!
