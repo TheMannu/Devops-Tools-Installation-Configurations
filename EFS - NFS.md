@@ -39,3 +39,6 @@ NFS Server
 
 - systemctl status nfs
 -  systemctl status rpcbind
+
+-  systemctl enable nfs
+-  systemctl enable rpcbind
