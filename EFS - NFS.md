@@ -36,3 +36,6 @@ NFS Server
     :wq!
 -  systemctl start nfs
 -  systemctl start rpcbind
+
+- systemctl status nfs
+-  systemctl status rpcbind
