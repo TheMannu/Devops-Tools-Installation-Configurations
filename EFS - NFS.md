@@ -47,3 +47,7 @@ NFS Server
 -  ll -ld /share/
 -  chmod -R 777 /share/
 -  ll -ld / share/
+       drwxrwxrwx. 2 root root 23 Feb 25 21:34 /share/
+-  ls -lrth / share/
+       total 0 
+       - rwxrwx rwx . l root root 0 Feb 25 21:34 share .txt
