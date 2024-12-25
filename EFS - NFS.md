@@ -51,3 +51,6 @@ NFS Server
 -  ls -lrth / share/
        total 0 
        - rwxrwx rwx . l root root 0 Feb 25 21:34 share .txt
+       
+-  systemctl restart nfs
+-  systemctl restart rpcbind
