@@ -34,3 +34,5 @@ NFS Server
 -  vim /etc/exports
     i  -  /share (ip addr - of another server)(rw, sync)   
     :wq!
+-  systemctl start nfs
+-  systemctl start rpcbind
