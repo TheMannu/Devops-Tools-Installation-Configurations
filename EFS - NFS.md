@@ -42,3 +42,8 @@ NFS Server
 
 -  systemctl enable nfs
 -  systemctl enable rpcbind
+
+-  exportfs -rav          -> shows which file is to be exported 
+-  ll -ld /share/
+-  chmod -R 777 /share/
+-  ll -ld / share/
