@@ -79,3 +79,8 @@ Now move to server 2
 
      shows - Export list for 192.168.11.131:
                            [share 192.168.11.132/24
+
+Now on server 2
+-  mkdir /access
+-  mount -t nfs  (IP of server one):/share  /access
+-  df -hT            -> to check   192 .168.11.131:/share nfs4     17G       6.OG      12G     35%        /acces
