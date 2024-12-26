@@ -61,3 +61,12 @@ Now move to server 2
 
      shows - Export list for 192.168.11.131:
                            [share 192.168.11.132/24]
+
+If it does not works like this then move to server one and do firewall settings with following commands
+
+-  firewall-cmd --permanent --add-service=nfs
+-  firewall-cmd --permanent --add-service=2049/tcp
+-  firewall-cmd --permanent --add-service=rcp-bind
+-  firewall-cmd --permanent --add-service=mountd
+-  firewall-cmd --relode
+-  firewall-cmd --list-all
