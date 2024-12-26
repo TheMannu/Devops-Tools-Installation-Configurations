@@ -75,3 +75,7 @@ If it does not works like this then move to server one and do firewall settings 
 Now again runn following 
 Now move to server 2
 - showmount -e (IP of server one)
+
+
+     shows - Export list for 192.168.11.131:
+                           [share 192.168.11.132/24
