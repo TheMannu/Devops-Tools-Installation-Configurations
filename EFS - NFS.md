@@ -70,3 +70,8 @@ If it does not works like this then move to server one and do firewall settings 
 -  firewall-cmd --permanent --add-service=mountd
 -  firewall-cmd --relode
 -  firewall-cmd --list-all
+
+
+Now again runn following 
+Now move to server 2
+- showmount -e (IP of server one)
