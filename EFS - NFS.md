@@ -54,3 +54,10 @@ NFS Server
        
 -  systemctl restart nfs
 -  systemctl restart rpcbind
+
+
+Now move to server 2
+- showmount -e (IP of server one)
+
+     shows - Export list for 192.168.11.131:
+                           [share 192.168.11.132/24]
