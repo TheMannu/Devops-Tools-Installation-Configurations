@@ -7,3 +7,5 @@ Load Balancers are servers that forward traffic to multiple downstream servers.
 It spreads load across multiple downstream instances. 
 It helps to expose a single point of access to your application. 
 It handles failures of the downstream instances by doing regular health checks.
+
+It provides SSL termination for your websites and enforces stickiness with cookies. 
