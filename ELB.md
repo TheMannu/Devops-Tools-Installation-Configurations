@@ -46,3 +46,13 @@ Select VPC in which EC2 in configured -> select AZs of VPC for all the EC2 Insat
 Select Sequrity Group For Classic Load Balancer
 Configure LB listening Port and then Instance Listening Port
 Configure Ping Path 
+
+Configure Health Check -> 
+  Response timeout
+   Time to wait for EC2 instances to respond to health checks.
+  Unhealthy threshold
+   Number of consecutive health check failures before declaring an EC2 instance unhealthy.
+  Interval
+   Amount of time between health checks sent to EC2 instances.
+  Healthy threshold
+   Number of consecutive health check successes before declaring an EC2 instance healthy.
