@@ -23,4 +23,11 @@ It is limited to handle traffic at the request and connection level only
 
 Limitation:
 
-Classic LB per region – 20
+  Classic LB per region – 20
+
+Load Balancer Components Limits:
+
+   Listeners – 50
+   Security Group – 5
+   Registered Instances – 1000>
+   Subnet per Availability zone – 1
