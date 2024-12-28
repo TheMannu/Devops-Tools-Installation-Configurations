@@ -19,3 +19,8 @@ It routs traffic between clients and backend services such as amazon EC2 and Con
 
 Classic Load Balancer Enables multiple cloud resources to be accessed through a single endpoint,simplify access and improve scalability.
 It is limited to handle traffic at the request and connection level only
+
+
+Limitation:
+
+Classic LB per region – 20
