@@ -31,3 +31,12 @@ Load Balancer Components Limits:
    Security Group – 5
    Registered Instances – 1000>
    Subnet per Availability zone – 1
+
+
+Demo
+Create Desired Numbers of Instances with web servers and Security Group from Load Balancer 
+Or Boot Process using User Data 
+    #!/bin/bash
+    sudo apt-get update
+    sudo apt-get install nginx -y
+    sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
