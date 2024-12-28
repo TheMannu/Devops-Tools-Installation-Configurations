@@ -43,3 +43,6 @@ Or Boot Process using User Data
 
 Create Load Balancer -> Select Classic Load Balancer
 Select VPC in which EC2 in configured -> select AZs of VPC for all the EC2 Insatnces
+Select Sequrity Group For Classic Load Balancer
+Configure LB listening Port and then Instance Listening Port
+Configure Ping Path 
