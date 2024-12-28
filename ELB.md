@@ -40,3 +40,6 @@ Or Boot Process using User Data
     sudo apt-get update
     sudo apt-get install nginx -y
     sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
+
+Create Load Balancer -> Select Classic Load Balancer
+Select VPC in which EC2 in configured -> select AZs of VPC for all the EC2 Insatnces
