@@ -72,3 +72,6 @@ Now All the servers can be accessed using DNS name in your browser and check loa
 
 
 2. Application Load Balancer (ALB):This is a load balancer that routes traffic to target groups based on the content of the request. It operates at the application layer (layer 7 in the OSI model) and supports HTTP, HTTPS, and WebSocket traffic. ALB is designed to handle high levels of traffic and provides advanced request routing features, such as support for multiple protocols, path-based routing, and ability to bind to multiple SSL certificates.
+
+ An ALB is type of LB that operates at Application Layer (Layer 7), making it intelligent and capable of routing traffic based on content. 
+It is designed for modern application that rely on multiple services(Microservices).
