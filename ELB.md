@@ -82,3 +82,7 @@ By default have Cross Zone Load Balancing Enabled
 ALB can disribute load on basis of  Path, Query, Port, Source IP
 query string - platform = mobile
 
+
+We can also Enable SSL certification On ALB in ADD Listner Section HTTPS protocol 
+using ACM (amazon certificate manager) or IAM, or Any thirt party certificate so that the request from clent to server will get encrypted
+By default have Cross Zone Load Balancing Enabled
