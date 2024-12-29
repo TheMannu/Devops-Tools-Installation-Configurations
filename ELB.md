@@ -68,3 +68,7 @@ Review the configuration and Click Create Load Balancer
 Wait for the instance to become "In Service" 
 
 Now All the servers can be accessed using DNS name in your browser and check load balancing by doing Refresh
+
+
+
+2. Application Load Balancer (ALB):This is a load balancer that routes traffic to target groups based on the content of the request. It operates at the application layer (layer 7 in the OSI model) and supports HTTP, HTTPS, and WebSocket traffic. ALB is designed to handle high levels of traffic and provides advanced request routing features, such as support for multiple protocols, path-based routing, and ability to bind to multiple SSL certificates.
