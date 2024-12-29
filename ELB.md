@@ -75,3 +75,6 @@ Now All the servers can be accessed using DNS name in your browser and check loa
 
  An ALB is type of LB that operates at Application Layer (Layer 7), making it intelligent and capable of routing traffic based on content. 
 It is designed for modern application that rely on multiple services(Microservices).
+ALB send Load to the target groups and the target group contains list of Compute engines , Instances, Noddes or container etc.
+There could be number of target groups
+By default have Cross Zone Load Balancing Enabled
