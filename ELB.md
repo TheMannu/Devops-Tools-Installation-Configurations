@@ -61,3 +61,10 @@ Configure Health Check ->
 
 Enable cross-zone load balancing
 Enable connection draining
+
+
+Review the configuration and Click Create Load Balancer
+
+Wait for the instance to become "In Service" 
+
+Now All the servers can be accessed using DNS name in your browser and check load balancing by doing Refresh
