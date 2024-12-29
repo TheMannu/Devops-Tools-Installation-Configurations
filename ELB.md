@@ -78,3 +78,7 @@ It is designed for modern application that rely on multiple services(Microservic
 ALB send Load to the target groups and the target group contains list of Compute engines , Instances, Noddes or container etc.
 There could be number of target groups
 By default have Cross Zone Load Balancing Enabled
+
+ALB can disribute load on basis of  Path, Query, Port, Source IP
+query string - platform = mobile
+
