@@ -86,3 +86,9 @@ query string - platform = mobile
 We can also Enable SSL certification On ALB in ADD Listner Section HTTPS protocol 
 using ACM (amazon certificate manager) or IAM, or Any thirt party certificate so that the request from clent to server will get encrypted
 By default have Cross Zone Load Balancing Enabled
+
+
+Limitation:
+
+Application LB per region – 20
+Target groups – 3000
