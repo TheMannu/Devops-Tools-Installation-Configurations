@@ -56,3 +56,8 @@ Configure Health Check ->
    Amount of time between health checks sent to EC2 instances.
   Healthy threshold
    Number of consecutive health check successes before declaring an EC2 instance healthy.
+  
+  Select All the Configured Instances or Servers in which Traffic should be distributed
+
+Enable cross-zone load balancing
+Enable connection draining
