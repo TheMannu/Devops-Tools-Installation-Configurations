@@ -92,3 +92,11 @@ Limitation:
 
 Application LB per region – 20
 Target groups – 3000
+
+Load Balancer Components Limits:
+
+Listeners – 50
+Targets load balancer – 1000
+Subnet per Availability zone – 1
+Rules – 100
+Security groups – 5
