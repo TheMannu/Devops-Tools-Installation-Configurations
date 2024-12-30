@@ -100,3 +100,14 @@ Targets load balancer – 1000
 Subnet per Availability zone – 1
 Rules – 100
 Security groups – 5
+
+
+
+Demo
+Step 1: Configure Your Target Group
+Create Desired Numbers of Instances with web servers and Security Group from Load Balancer 
+Or Boot Process using User Data 
+    #!/bin/bash
+    sudo apt-get update
+    sudo apt-get install nginx -y
+    sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
