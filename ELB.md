@@ -125,3 +125,12 @@ Add targets:
 If the target type is Instances, select instances, enter ports, and choose "Include as pending."
 If the target type is IP addresses, select a network VPC, enter IP addresses and ports, then choose "Include as pending."
 If the target type is a Lambda function, specify a single Lambda function or skip this step.
+
+
+Click on "Create Target Group"
+
+Step 2: Choose a Load Balancer Type
+On the navigation bar, select a Region for your load balancer. Make sure it's the same Region you used for your EC2 instances.
+In the navigation pane under Load Balancing, click on Load Balancers.
+Choose "Create Load Balancer."
+Select "Create" for Application Load Balancer.
