@@ -130,11 +130,13 @@ If the target type is a Lambda function, specify a single Lambda function or ski
 Click on "Create Target Group"
 
 Step 2: Choose a Load Balancer Type
-On the navigation bar, select a Region for your load balancer. Make sure it's the same Region you used for your EC2 instances.
-In the navigation pane under Load Balancing, click on Load Balancers.
-Choose "Create Load Balancer."
-Select "Create" for Application Load Balancer.
+1. On the navigation bar, select a Region for your load balancer. Make sure it's the same Region you used for your EC2 instances.
+2. In the navigation pane under Load Balancing, click on Load Balancers.
+3. Choose "Create Load Balancer."
+4. Select "Create" for Application Load Balancer.
 
 Step 3: Configure Your Load Balancer and Listener
-Load Balancer Name: Enter a name for your load balancer, e.g., "my-alb."
-Scheme and IP Address Type: Retain the default values.
+1. Load Balancer Name: Enter a name for your load balancer, e.g., "my-alb."
+2. Scheme and IP Address Type: Retain the default values.
+3. Network Mapping: Choose the VPC used for your EC2 instances. Select at least two Availability Zones and one subnet per zone. For each Availability Zone used to launch EC2 instances, select the Zone and choose one public subnet for that Zone.
+4. Security Groups: Choose the default security group for the selected VPC. Alternatively, select a different security group. Ensure the security group has rules permitting communication between the load balancer and registered targets on both the listener port and the health check port. Refer to Security group rules for more details.
