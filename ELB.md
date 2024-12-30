@@ -111,3 +111,11 @@ Or Boot Process using User Data
     sudo apt-get update
     sudo apt-get install nginx -y
     sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
+
+Inside Load balancer section -> select Target Group -> select target type such as Instance , IP addresses, Lambda Function or Application Load balancer
+Provide a Name to the target Group should be unique per Account per Region
+Adjust Protocol and Port of Instance or Application 
+(If traget type is Instance or IP address -> select IPv4 or IPv6 as IP address and it cannot be changed after creation of Target Group)
+Select VPC which have all the resources
+Select the Protocol Version
+Customize Health Checks As per Your Requirement 
