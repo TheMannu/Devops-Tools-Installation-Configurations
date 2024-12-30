@@ -119,3 +119,9 @@ Adjust Protocol and Port of Instance or Application
 Select VPC which have all the resources
 Select the Protocol Version
 Customize Health Checks As per Your Requirement 
+
+
+Add targets:
+If the target type is Instances, select instances, enter ports, and choose "Include as pending."
+If the target type is IP addresses, select a network VPC, enter IP addresses and ports, then choose "Include as pending."
+If the target type is a Lambda function, specify a single Lambda function or skip this step.
