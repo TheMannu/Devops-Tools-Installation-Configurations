@@ -134,3 +134,7 @@ On the navigation bar, select a Region for your load balancer. Make sure it's th
 In the navigation pane under Load Balancing, click on Load Balancers.
 Choose "Create Load Balancer."
 Select "Create" for Application Load Balancer.
+
+Step 3: Configure Your Load Balancer and Listener
+Load Balancer Name: Enter a name for your load balancer, e.g., "my-alb."
+Scheme and IP Address Type: Retain the default values.
