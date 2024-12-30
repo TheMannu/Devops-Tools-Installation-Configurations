@@ -140,3 +140,4 @@ Step 3: Configure Your Load Balancer and Listener
 2. Scheme and IP Address Type: Retain the default values.
 3. Network Mapping: Choose the VPC used for your EC2 instances. Select at least two Availability Zones and one subnet per zone. For each Availability Zone used to launch EC2 instances, select the Zone and choose one public subnet for that Zone.
 4. Security Groups: Choose the default security group for the selected VPC. Alternatively, select a different security group. Ensure the security group has rules permitting communication between the load balancer and registered targets on both the listener port and the health check port. Refer to Security group rules for more details.
+5. Listeners and Routing: Keep the default protocol and port. Select your target group from the list. This configures a listener accepting HTTP traffic on port 80, forwarding it to the chosen target group by default. No HTTPS listener is created for this tutorial.
