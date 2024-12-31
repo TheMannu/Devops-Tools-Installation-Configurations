@@ -144,3 +144,6 @@ Step 3: Configure Your Load Balancer and Listener
 6. Default Action: Choose the target group created and registered in Step 1: Configure your target group.
 7. Optional: Add a Tag: Include a tag to categorize your load balancer. Tag keys must be unique, allowing letters, spaces, numbers (in UTF-8), and special characters like + - = . _ : / @. Avoid leading or trailing spaces, and note that tag values are case-sensitive.
 8. Review Configuration: Assess your settings and select "Create load balancer." The system applies a few default attributes during creation, editable post-creation. Refer to Load balancer attributes for additional information.
+
+#### Step 4: Verify Your Load Balancer's Performance
+To check your load balancer, follow these steps:
