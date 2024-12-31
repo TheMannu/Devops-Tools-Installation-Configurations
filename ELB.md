@@ -146,4 +146,8 @@ Step 3: Configure Your Load Balancer and Listener
 8. Review Configuration: Assess your settings and select "Create load balancer." The system applies a few default attributes during creation, editable post-creation. Refer to Load balancer attributes for additional information.
 
 #### Step 4: Verify Your Load Balancer's Performance
+
 To check your load balancer, follow these steps:
+
+1. Close Notification:
+    Once you receive confirmation that your load balancer was created successfully, click "Close."
