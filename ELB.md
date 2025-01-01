@@ -151,3 +151,6 @@ To check your load balancer, follow these steps:
 
 1. Close Notification:
     Once you receive confirmation that your load balancer was created successfully, click "Close."
+
+2. Navigate to Target Groups:
+    In the navigation pane, go to "Load Balancing" and select "Target Groups."
