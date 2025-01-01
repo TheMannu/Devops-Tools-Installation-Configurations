@@ -154,3 +154,7 @@ To check your load balancer, follow these steps:
 
 2. Navigate to Target Groups:
     In the navigation pane, go to "Load Balancing" and select "Target Groups."
+
+
+3. Select Target Group:
+    Pick the newly created target group.
