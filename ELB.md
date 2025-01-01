@@ -158,3 +158,6 @@ To check your load balancer, follow these steps:
 
 3. Select Target Group:
     Pick the newly created target group.
+
+4. Verify Instance Readiness:
+    Click on "Targets" and confirm that your instances are ready. If an instance's status is "initial," it may still be in the registration process or has not passed the minimum health checks to be considered healthy. Once at least one instance shows a healthy status, you can proceed to test your load balancer.
