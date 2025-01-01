@@ -164,3 +164,6 @@ To check your load balancer, follow these steps:
 
 5. Access Load Balancers:
     In the navigation pane, under "Load Balancing," choose "Load Balancers."
+
+6. Choose Load Balancer:
+    Select the recently created load balancer.
