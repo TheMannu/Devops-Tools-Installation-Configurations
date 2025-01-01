@@ -167,3 +167,6 @@ To check your load balancer, follow these steps:
 
 6. Choose Load Balancer:
     Select the recently created load balancer.
+
+7. Copy DNS Name:
+    Under "Description," copy the DNS name of the load balancer (e.g., my-load-balancer-1234567890abcdef.elb.us-east-2.amazonaws.com).
