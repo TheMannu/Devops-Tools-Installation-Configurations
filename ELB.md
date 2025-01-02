@@ -196,5 +196,8 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/test/index
 
 Path-based routing is a crucial concept in modern web architecture, allowing us to direct incoming traffic to different backend services based on the URL path. In this blog post, we'll delve into what path-based routing is, how it can be used effectively, and walk through a step-by-step guide to configuring it using AWS Application Load Balancer (ALB). By the end, you'll have a clear understanding of path-based routing and be ready to implement it in your own projects.
 
-What is Path-Based Routing?
+1. What is Path-Based Routing?
 Path-based routing involves directing incoming requests to different backend services based on the URL path. For example, you can route requests to /app1/* to one service and requests to /app2/* to another service.
+
+2. How Can We Use Path-Based Routing?
+Path-based routing is incredibly useful in scenarios where you have multiple applications or microservices running on the same domain or server. It allows you to efficiently manage traffic by directing requests to the appropriate backend service based on the requested path.
