@@ -173,3 +173,6 @@ To check your load balancer, follow these steps:
 
 8. Paste in Browser:
     Paste the copied DNS name into the address field of an internet-connected web browser. If everything is functioning correctly, the browser should display the default page of your server.
+
+9. Optional - Add Listener Rules:
+    To include additional listener rules, refer to "Add a rule." To enhance your setup, consider adding additional listener rules.
