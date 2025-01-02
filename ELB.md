@@ -176,3 +176,10 @@ To check your load balancer, follow these steps:
 
 9. Optional - Add Listener Rules:
     To include additional listener rules, refer to "Add a rule." To enhance your setup, consider adding additional listener rules.
+
+
+## Path-Based Routing url - < public IP /test/ >
+
+Create Desired Numbers of Instances with web servers and Security Group from Load Balancer 
+Or Boot Process using User Data 
+    url - < public IP /test >
