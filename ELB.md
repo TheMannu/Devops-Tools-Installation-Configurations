@@ -183,3 +183,12 @@ To check your load balancer, follow these steps:
 Create Desired Numbers of Instances with web servers and Security Group from Load Balancer 
 Or Boot Process using User Data 
     url - < public IP /test >
+
+#!/bin/bash
+
+sudo apt-get update
+sudo apt-get install nginx -y
+
+mkdir -p /var/www/html/test
+
+sudo echo "this is private IP of machine $(hostname)" > /var/www/html/test/index.html
