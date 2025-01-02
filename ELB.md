@@ -170,3 +170,6 @@ To check your load balancer, follow these steps:
 
 7. Copy DNS Name:
     Under "Description," copy the DNS name of the load balancer (e.g., my-load-balancer-1234567890abcdef.elb.us-east-2.amazonaws.com).
+
+8. Paste in Browser:
+    Paste the copied DNS name into the address field of an internet-connected web browser. If everything is functioning correctly, the browser should display the default page of your server.
