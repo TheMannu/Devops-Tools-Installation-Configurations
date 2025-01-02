@@ -192,3 +192,6 @@ sudo apt-get install nginx -y
 mkdir -p /var/www/html/test
 
 sudo echo "this is private IP of machine $(hostname)" > /var/www/html/test/index.html
+
+
+Path-based routing is a crucial concept in modern web architecture, allowing us to direct incoming traffic to different backend services based on the URL path. In this blog post, we'll delve into what path-based routing is, how it can be used effectively, and walk through a step-by-step guide to configuring it using AWS Application Load Balancer (ALB). By the end, you'll have a clear understanding of path-based routing and be ready to implement it in your own projects.
