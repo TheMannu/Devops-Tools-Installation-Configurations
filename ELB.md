@@ -212,3 +212,5 @@ Path-based routing is incredibly useful in scenarios where you have multiple app
 4. How to Configure Path-Based Routing in AWS ALB:
 - Step 1: Create an Application Load Balancer (ALB) in the AWS Management Console.
 - Step 2: Define target groups for different backend services.
+- Step 3: Configure listener rules to route traffic based on the URL path.
+- Step 4: Test and validate the path-based routing configuration.
