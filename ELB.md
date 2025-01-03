@@ -214,3 +214,4 @@ Path-based routing is incredibly useful in scenarios where you have multiple app
 - Step 2: Define target groups for different backend services.
 - Step 3: Configure listener rules to route traffic based on the URL path.
 - Step 4: Test and validate the path-based routing configuration.
+- Step 5: Monitor and optimize your path-based routing setup for performance.
