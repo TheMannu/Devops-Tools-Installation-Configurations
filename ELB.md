@@ -208,3 +208,7 @@ Path-based routing is incredibly useful in scenarios where you have multiple app
 - API Gateway: When building APIs, path-based routing can be used to route requests to different API endpoints based on the URL path, providing a clean and organized API structure.
 
 - Multi-Tenancy Applications: In multi-tenancy applications, path-based routing can be used to route requests to different tenants based on the URL path, allowing for efficient resource allocation and isolation.
+
+4. How to Configure Path-Based Routing in AWS ALB:
+- Step 1: Create an Application Load Balancer (ALB) in the AWS Management Console.
+- Step 2: Define target groups for different backend services.
