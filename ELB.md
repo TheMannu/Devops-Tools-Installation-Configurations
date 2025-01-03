@@ -201,3 +201,6 @@ Path-based routing involves directing incoming requests to different backend ser
 
 2. How Can We Use Path-Based Routing?
 Path-based routing is incredibly useful in scenarios where you have multiple applications or microservices running on the same domain or server. It allows you to efficiently manage traffic by directing requests to the appropriate backend service based on the requested path.
+
+3. Use Cases of Path-Based Routing:
+- Microservices Architecture: In a microservices architecture, different microservices often handle different functionalities. Path-based routing enables you to route requests to the corresponding microservice based on the requested path.
