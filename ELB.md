@@ -204,3 +204,5 @@ Path-based routing is incredibly useful in scenarios where you have multiple app
 
 3. Use Cases of Path-Based Routing:
 - Microservices Architecture: In a microservices architecture, different microservices often handle different functionalities. Path-based routing enables you to route requests to the corresponding microservice based on the requested path.
+
+- API Gateway: When building APIs, path-based routing can be used to route requests to different API endpoints based on the URL path, providing a clean and organized API structure.
