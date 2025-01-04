@@ -240,3 +240,7 @@ Key Attributes and their Meanings:
 4. access_logs.s3.bucket:
 
 - Specifies the S3 bucket for access logs (required if enabled).
+
+5. access_logs.s3.prefix:
+
+- Defines the prefix for access log location.
