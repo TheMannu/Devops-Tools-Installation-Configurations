@@ -236,3 +236,7 @@ Key Attributes and their Meanings:
 
 - Activates access logs for tracking requests.
 - Default: false.
+
+4. access_logs.s3.bucket:
+
+- Specifies the S3 bucket for access logs (required if enabled).
