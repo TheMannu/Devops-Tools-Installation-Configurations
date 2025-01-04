@@ -231,3 +231,8 @@ Key Attributes and their Meanings:
 
 - Manages cross-zone load balancing.
 - Default: Network and Gateway Load Balancers - false, Application Load Balancers - true (unchangeable).
+
+3. access_logs.s3.enabled:
+
+- Activates access logs for tracking requests.
+- Default: false.
