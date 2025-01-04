@@ -226,3 +226,8 @@ Key Attributes and their Meanings:
 
 - Determines if deletion protection is enabled.
 - Default: false.
+
+2. load_balancing.cross_zone.enabled:
+
+- Manages cross-zone load balancing.
+- Default: Network and Gateway Load Balancers - false, Application Load Balancers - true (unchangeable).
