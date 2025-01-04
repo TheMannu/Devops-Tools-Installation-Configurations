@@ -219,3 +219,10 @@ Path-based routing is incredibly useful in scenarios where you have multiple app
 ## Understanding Load Balancer Attributes
 
 In the realm of load balancing, it's essential to grasp the various attributes that govern its behavior. Let's explore key attributes and their use cases, shedding light on how these settings can optimize the performance and security of your load balancer.
+
+Key Attributes and their Meanings:
+
+1. deletion_protection.enabled:
+
+- Determines if deletion protection is enabled.
+- Default: false.
