@@ -265,3 +265,7 @@ Key Attributes and their Meanings:
 9. connection_logs.s3.bucket:
 
 - Specifies S3 bucket for connection logs (required if enabled).
+
+10. connection_logs.s3.prefix:
+
+- Defines the prefix for connection log location.
