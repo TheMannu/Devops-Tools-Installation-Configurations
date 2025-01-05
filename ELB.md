@@ -244,3 +244,8 @@ Key Attributes and their Meanings:
 5. access_logs.s3.prefix:
 
 - Defines the prefix for access log location.
+
+6. ipv6.deny_all_igw_traffic:
+
+- Blocks internet gateway access for security.
+- Default: Internet-facing - false, Internal - true.
