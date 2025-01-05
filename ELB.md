@@ -256,3 +256,8 @@ Key Attributes and their Meanings:
 
 - Sets the idle timeout value in seconds.
 - Default: 60 seconds.
+
+8. connection_logs.s3.enabled:
+
+- Enables connection logs.
+- Default: false.
