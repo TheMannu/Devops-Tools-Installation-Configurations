@@ -249,3 +249,10 @@ Key Attributes and their Meanings:
 
 - Blocks internet gateway access for security.
 - Default: Internet-facing - false, Internal - true.
+
+### Attributes for Application Load Balancers:
+
+7. idle_timeout.timeout_seconds:
+
+- Sets the idle timeout value in seconds.
+- Default: 60 seconds.
