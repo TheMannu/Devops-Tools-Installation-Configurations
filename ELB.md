@@ -269,3 +269,8 @@ Key Attributes and their Meanings:
 10. connection_logs.s3.prefix:
 
 - Defines the prefix for connection log location.
+
+11. routing.http.desync_mitigation_mode:
+
+- Manages handling of potentially risky requests.
+- Default: defensive.
