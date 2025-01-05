@@ -261,3 +261,7 @@ Key Attributes and their Meanings:
 
 - Enables connection logs.
 - Default: false.
+
+9. connection_logs.s3.bucket:
+
+- Specifies S3 bucket for connection logs (required if enabled).
