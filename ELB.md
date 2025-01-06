@@ -274,3 +274,7 @@ Key Attributes and their Meanings:
 
 - Manages handling of potentially risky requests.
 - Default: defensive.
+
+12. routing.http.drop_invalid_header_fields.enabled:
+- Removes or routes headers with invalid fields.
+- Default: false.
