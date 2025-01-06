@@ -294,3 +294,8 @@ Key Attributes and their Meanings:
 
 - Determines if X-Forwarded-For should preserve client source port.
 - Default: false.
+
+16. routing.http.xff_header_processing.mode:
+
+- Modifies, preserves, or removes X-Forwarded-For header.
+- Default: append.
