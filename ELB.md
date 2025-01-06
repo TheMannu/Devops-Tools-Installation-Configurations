@@ -299,3 +299,8 @@ Key Attributes and their Meanings:
 
 - Modifies, preserves, or removes X-Forwarded-For header.
 - Default: append.
+
+17. routing.http.xff_header_processing.mode:
+
+- Modifies, preserves, or removes X-Forwarded-For header.
+- Default: append.
