@@ -276,9 +276,16 @@ Key Attributes and their Meanings:
 - Default: defensive.
 
 12. routing.http.drop_invalid_header_fields.enabled:
+
 - Removes or routes headers with invalid fields.
 - Default: false.
 
 13. routing.http.preserve_host_header.enabled:
+
 - Preserves the Host header in HTTP requests.
+- Default: false.
+
+14. routing.http.x_amzn_tls_version_and_cipher_suite.enabled:
+
+- Adds headers with TLS version and cipher suite info.
 - Default: false.
