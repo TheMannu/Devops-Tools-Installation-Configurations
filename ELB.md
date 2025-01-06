@@ -289,3 +289,8 @@ Key Attributes and their Meanings:
 
 - Adds headers with TLS version and cipher suite info.
 - Default: false.
+
+15. routing.http.xff_client_port.enabled:
+
+- Determines if X-Forwarded-For should preserve client source port.
+- Default: false.
