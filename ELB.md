@@ -335,3 +335,12 @@ Key Attributes and their Meanings:
 - Pattern: ^[a-zA-Z0-9._]+$
 
 These attributes empower you to tailor your load balancer configuration, ensuring it aligns with the specific requirements of your applications. Whether it's enhancing security, optimizing performance, or distributing traffic strategically, understanding and utilizing these attributes is key to harnessing the full potential of your load balancer.
+
+### Nginx Configuration to get client IP address in logs
+```
+
+log_format main '$remote_addr - $remote_user [$time_local] "$request" '
+                  '$status $body_bytes_sent "$http_referer" '
+                  '"$http_user_agent" "$http_x_forwarded_for"';
+                  
+```
