@@ -316,3 +316,8 @@ Key Attributes and their Meanings:
 
 - Modifies, preserves, or removes X-Forwarded-For header.
 - Default: append.
+
+18. waf.fail_open.enabled:
+
+- Decides whether a WAF-enabled load balancer should route requests if unable to forward to AWS WAF.
+- Default: false.
