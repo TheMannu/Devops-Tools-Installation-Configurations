@@ -321,3 +321,10 @@ Key Attributes and their Meanings:
 
 - Decides whether a WAF-enabled load balancer should route requests if unable to forward to AWS WAF.
 - Default: false.
+
+### Attributes for Network Load Balancers:
+
+19. dns_record.client_routing_policy:
+
+- Dictates traffic distribution among Availability Zones.
+- Possible values: availability_zone_affinity, partial_availability_zone_affinity, any_availability_zone.
