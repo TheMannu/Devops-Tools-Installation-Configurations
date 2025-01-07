@@ -328,3 +328,8 @@ Key Attributes and their Meanings:
 
 - Dictates traffic distribution among Availability Zones.
 - Possible values: availability_zone_affinity, partial_availability_zone_affinity, any_availability_zone.
+
+20. Type (String):
+
+- Specifies the type with length constraints (max 256 characters).
+- Pattern: ^[a-zA-Z0-9._]+$
