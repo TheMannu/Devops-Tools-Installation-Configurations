@@ -362,3 +362,7 @@ Configuration in Application Load Balancer (ALB): Configuring stickiness in an A
 
 2. Select the Load Balancer:
     - Locate your Application Load Balancer in the Load Balancers section.
+
+3. Configure Stickiness:
+    - In the ALB details, find the "Listeners" tab.
+    - Edit the listener for which you want to enable stickiness.
