@@ -359,3 +359,6 @@ Configuration in Application Load Balancer (ALB): Configuring stickiness in an A
 
 1. Navigate to the AWS Management Console:
     - Log in to your AWS account and go to the EC2 dashboard.
+
+2. Select the Load Balancer:
+    - Locate your Application Load Balancer in the Load Balancers section.
