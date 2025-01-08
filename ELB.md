@@ -354,3 +354,8 @@ Stickiness  b/w clients and host can be enabled based on cookies by a load balan
 
 
 Stickiness, also known as session affinity, is the ability of a load balancer to bind a user's session to a specific server. This ensures that subsequent requests from the same user are directed to the same server that initially handled their request. Stickiness is particularly useful for applications that store session data locally on a server.
+
+Configuration in Application Load Balancer (ALB): Configuring stickiness in an ALB involves a few steps. Let's break it down:
+
+1. Navigate to the AWS Management Console:
+    - Log in to your AWS account and go to the EC2 dashboard.
