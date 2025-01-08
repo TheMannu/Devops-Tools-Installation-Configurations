@@ -351,3 +351,6 @@ log_format main '$remote_addr - $remote_user [$time_local] "$request" '
 
 # Understanding Stickiness:
 Stickiness  b/w clients and host can be enabled based on cookies by a load balancer or an application only if the application is statefull or it need to stablish session for longer period 
+
+
+Stickiness, also known as session affinity, is the ability of a load balancer to bind a user's session to a specific server. This ensures that subsequent requests from the same user are directed to the same server that initially handled their request. Stickiness is particularly useful for applications that store session data locally on a server.
