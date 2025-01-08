@@ -348,3 +348,6 @@ log_format main '$remote_addr - $remote_user [$time_local] "$request" '
 
 # Stickiness in Load Balancers 
 - Load balancers play a crucial role in distributing incoming network traffic across multiple servers to ensure optimal resource utilization and prevent server overload. One key feature in load balancing is "stickiness." In this blog post, we'll unravel the concept of stickiness and provide a straightforward guide on configuring it in an Application Load Balancer (ALB).
+
+# Understanding Stickiness:
+Stickiness  b/w clients and host can be enabled based on cookies by a load balancer or an application only if the application is statefull or it need to stablish session for longer period 
