@@ -19,3 +19,5 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 - Load balancing
 - Scalability
 - Instance refresh
+- Lifecycle hooks
+- Support for stateful workloads
