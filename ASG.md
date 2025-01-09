@@ -7,3 +7,9 @@ The application available at AWS requires space and load and the Auto Scaling he
 You can set a limit on EC2 instances such that the number doesn't go below this.Also maximum numbers of EC2 instances can be set to be on a safer side.
 AWS Autoscaling ensures that your group has a sufficient amount of servers.
 Auto-scaling automatically modifies the EC2 instance as per your demand changes.
+
+
+## Features of Amazon EC2 Auto Scaling
+
+- Monitoring the health of running instances
+- Custom health checks as defined by User
