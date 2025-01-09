@@ -17,3 +17,5 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 - Multiple instance types and purchase options (Spot and On-Demand Instances)
 - Automated replacement of Spot Instances
 - Load balancing
+- Scalability
+- Instance refresh
