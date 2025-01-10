@@ -34,3 +34,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 
 2. Predictive scaling policies
 3. Scheduled action
+
+## Load Testing on Linux servers
+
+sudo apt-get update
