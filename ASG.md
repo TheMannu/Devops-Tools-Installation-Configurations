@@ -21,3 +21,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 - Instance refresh
 - Lifecycle hooks
 - Support for stateful workloads
+
+## No additional fee or Pricing for Amazon EC2 Auto Scaling
+
+## Auto Scaling policies or Types
