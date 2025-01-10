@@ -31,3 +31,6 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 
     - Step scaling policy
     - Simple scaling policy
+
+2. Predictive scaling policies
+3. Scheduled action
