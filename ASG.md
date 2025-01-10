@@ -38,3 +38,5 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 ## Load Testing on Linux servers
 
 sudo apt-get update
+sudo apt-get install stress
+stress -c 5
