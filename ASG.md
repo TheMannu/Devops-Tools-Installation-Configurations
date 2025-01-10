@@ -25,3 +25,9 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 ## No additional fee or Pricing for Amazon EC2 Auto Scaling
 
 ## Auto Scaling policies or Types
+
+1. Dynamic scaling policies
+    - Target tracking policy (Creats CloudWatch by its self)
+
+    - Step scaling policy
+    - Simple scaling policy
