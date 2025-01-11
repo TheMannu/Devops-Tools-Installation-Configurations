@@ -370,3 +370,6 @@ Configuration in Application Load Balancer (ALB): Configuring stickiness in an A
 4. Enable Stickiness:
     - Check the box for "Enable Load Balancer Generated Cookie Stickiness."
     - Adjust the "Stickiness Duration" if needed. This determines how long the association between a user and a specific server lasts.
+
+5. Save Changes:
+    - Save your changes, and the ALB will now use stickiness based on the configured settings.
