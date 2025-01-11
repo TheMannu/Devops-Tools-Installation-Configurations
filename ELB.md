@@ -373,3 +373,6 @@ Configuration in Application Load Balancer (ALB): Configuring stickiness in an A
 
 5. Save Changes:
     - Save your changes, and the ALB will now use stickiness based on the configured settings.
+
+
+#### Example Use Case: Let's consider a scenario where an e-commerce application uses stickiness. When a user logs in and adds items to their cart, their session data is stored on the server handling the request. With stickiness enabled, subsequent requests from the same user will be directed to the same server, ensuring a seamless and consistent shopping experience.
