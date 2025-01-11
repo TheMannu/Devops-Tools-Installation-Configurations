@@ -391,7 +391,7 @@ Configuration in Application Load Balancer (ALB): Configuring stickiness in an A
 - Security groups – 5
 
 ## 3. Network Load Balancer (NLB): This is a load balancer that routes traffic to target groups based on IP address and TCP port. It operates at the network layer (layer 4 in the OSI model) can handle millions of requests per second and supports any TCP-based protocol. NLB is designed to handle high levels of traffic and provides ultra-low latencies.
-
+![alt text](image.png)
 
 NLB works or Transport layer and transport layer decides to send request on specific port based on the meta data coming from client server
 
