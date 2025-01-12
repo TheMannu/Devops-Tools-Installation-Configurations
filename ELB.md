@@ -406,3 +406,4 @@ Consider using Network Load Balancers when you need to:
 
 ### How to Create Network Load Balancer in AWS ALB
 Creating a Network Load Balancer in AWS ALB involves several steps:
+1. Access AWS Management Console: Log in to your AWS account and navigate to the EC2 dashboard.
