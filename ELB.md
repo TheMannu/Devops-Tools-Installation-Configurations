@@ -403,3 +403,6 @@ Consider using Network Load Balancers when you need to:
 - Handle high-throughput applications
 - Efficiently manage TCP and UDP traffic
 - Ensure fault tolerance across multiple Availability Zones
+
+### How to Create Network Load Balancer in AWS ALB
+Creating a Network Load Balancer in AWS ALB involves several steps:
