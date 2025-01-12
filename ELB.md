@@ -396,3 +396,6 @@ Configuration in Application Load Balancer (ALB): Configuring stickiness in an A
 NLB works or Transport layer and transport layer decides to send request on specific port based on the meta data coming from client server
 
 By default the Cross Zone Loab Balancing Is disabled
+
+### When to Use Network Load Balancers
+Consider using Network Load Balancers when you need to:
