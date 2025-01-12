@@ -399,3 +399,7 @@ By default the Cross Zone Loab Balancing Is disabled
 
 ### When to Use Network Load Balancers
 Consider using Network Load Balancers when you need to:
+
+- Handle high-throughput applications
+- Efficiently manage TCP and UDP traffic
+- Ensure fault tolerance across multiple Availability Zones
