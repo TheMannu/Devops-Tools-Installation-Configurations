@@ -414,3 +414,5 @@ Creating a Network Load Balancer in AWS ALB involves several steps:
 
 ### Benefits of Network Load Balancers over Classic Load Balancers
 Migrating to Network Load Balancers offers several advantages, including:
+
+- Ability to handle volatile workloads and scale to millions of requests per second.
