@@ -409,3 +409,4 @@ Creating a Network Load Balancer in AWS ALB involves several steps:
 1. Access AWS Management Console: Log in to your AWS account and navigate to the EC2 dashboard.
 2. Select the Load Balancer: Locate your desired ALB in the Load Balancers section.
 3. Configure Rules: Edit the listener for which you want to set up custom routing.
+4. Define Conditions and Actions: Add rules based on conditions like path patterns, headers, or query strings. Specify the target or action associated with each rule.
