@@ -416,3 +416,5 @@ Creating a Network Load Balancer in AWS ALB involves several steps:
 Migrating to Network Load Balancers offers several advantages, including:
 
 - Ability to handle volatile workloads and scale to millions of requests per second.
+- Support for static IP addresses and Elastic IP addresses for the load balancer.
+
