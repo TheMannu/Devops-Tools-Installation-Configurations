@@ -411,3 +411,6 @@ Creating a Network Load Balancer in AWS ALB involves several steps:
 3. Configure Rules: Edit the listener for which you want to set up custom routing.
 4. Define Conditions and Actions: Add rules based on conditions like path patterns, headers, or query strings. Specify the target or action associated with each rule.
 5. Save Changes: Save your configurations, and the ALB will now use custom routing based on the defined rules.
+
+### Benefits of Network Load Balancers over Classic Load Balancers
+Migrating to Network Load Balancers offers several advantages, including:
