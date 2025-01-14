@@ -421,3 +421,7 @@ Migrating to Network Load Balancers offers several advantages, including:
 - Capability to route requests to multiple applications on a single EC2 instance using multiple ports.
 - Support for containerized applications with Amazon Elastic Container Service (Amazon ECS).
 
+#### Limitation:
+
+- Network LB per region – 20
+- Target groups – 3000
