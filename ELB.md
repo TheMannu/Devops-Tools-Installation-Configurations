@@ -429,3 +429,4 @@ Migrating to Network Load Balancers offers several advantages, including:
 #### Load Balancer Components Limits:
 
 - Listeners – 50
+- Targets per availability zone with cross-zone load balancing disabled – 200
