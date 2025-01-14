@@ -425,3 +425,7 @@ Migrating to Network Load Balancers offers several advantages, including:
 
 - Network LB per region – 20
 - Target groups – 3000
+
+#### Load Balancer Components Limits:
+
+- Listeners – 50
