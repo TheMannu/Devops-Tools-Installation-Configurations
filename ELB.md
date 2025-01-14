@@ -430,3 +430,4 @@ Migrating to Network Load Balancers offers several advantages, including:
 
 - Listeners – 50
 - Targets per availability zone with cross-zone load balancing disabled – 200
+- Targets per availability zone with cross-zone load balancing enabled – 200
