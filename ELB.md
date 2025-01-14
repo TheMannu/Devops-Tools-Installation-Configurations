@@ -419,4 +419,5 @@ Migrating to Network Load Balancers offers several advantages, including:
 - Support for static IP addresses and Elastic IP addresses for the load balancer.
 - Flexibility to register targets by IP address, including those outside the VPC.
 - Capability to route requests to multiple applications on a single EC2 instance using multiple ports.
+- Support for containerized applications with Amazon Elastic Container Service (Amazon ECS).
 
