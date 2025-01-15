@@ -436,3 +436,5 @@ Migrating to Network Load Balancers offers several advantages, including:
 
 #### Network Load Balancer (NLB): 
 - Shell Script for testing Network Load Balancer
+
+- vim loadtest.sh
