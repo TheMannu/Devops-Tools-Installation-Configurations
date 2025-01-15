@@ -432,3 +432,7 @@ Migrating to Network Load Balancers offers several advantages, including:
 - Targets per availability zone with cross-zone load balancing disabled – 200
 - Targets per availability zone with cross-zone load balancing enabled – 200
 - Subnet per Availability zone – 1
+
+
+#### Network Load Balancer (NLB): 
+- Shell Script for testing Network Load Balancer
