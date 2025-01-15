@@ -438,3 +438,8 @@ Migrating to Network Load Balancers offers several advantages, including:
 - Shell Script for testing Network Load Balancer
 
 - vim loadtest.sh
+
+``
+#!/bin/bash
+
+nwlb="Network Load Balancer Hostname"
