@@ -440,6 +440,12 @@ Migrating to Network Load Balancers offers several advantages, including:
 - vim loadtest.sh
 
 ``
-#!/bin/bash
+    #!/bin/bash
 
-nwlb="Network Load Balancer Hostname"
+    nwlb="Network Load Balancer Hostname"
+        for ((i=0;i<100;I++))
+    do
+        curl ${nwlb}
+    done
+
+```
