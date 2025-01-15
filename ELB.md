@@ -449,3 +449,6 @@ Migrating to Network Load Balancers offers several advantages, including:
     done
 
 ```
+
+
+## 4. Gateway Load Balancer (GLB): Deploy scale and manage a fleet of 3rd party network virtual appliances in AWS. For an example, Firewalls, Intrusion detection and prevention, deep packet inspection, payload manipulation etc.
