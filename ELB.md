@@ -468,4 +468,5 @@ Migrating to Network Load Balancers offers several advantages, including:
 - Targets groups with GENEVE protocol – 10
 
 #### Conclusion
-You should choose ALB if you want a load balancer that can route traffic based on the content of the request and supports multiple protocols, path-based routing, and SSL certificates. 
+You should choose ALB if you want a load balancer that can route traffic based on the content of the request and supports multiple protocols, path-based routing, and SSL certificates. NLB is a good choice if you want a load balancer that can handle high levels of traffic with ultra-low latencies and can route traffic based on IP address and TCP port. CLB is a legacy load balancer that is not recommended for new applications.
+
