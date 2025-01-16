@@ -455,3 +455,9 @@ Migrating to Network Load Balancers offers several advantages, including:
 
 
 ![alt text](image-1.png)
+
+
+#### Limitation
+
+- Gateway LB per region – 20
+- Target groups – 3000
