@@ -451,4 +451,4 @@ Migrating to Network Load Balancers offers several advantages, including:
 ```
 
 
-## 4. Gateway Load Balancer (GLB): Deploy scale and manage a fleet of 3rd party network virtual appliances in AWS. For an example, Firewalls, Intrusion detection and prevention, deep packet inspection, payload manipulation etc.
+## 4. Gateway Load Balancer (GLB): Deploy scale and manage a fleet of 3rd party network virtual appliances in AWS. For an example, Firewalls, Intrusion detection and prevention, deep packet inspection, payload manipulation etc. It operates at layer 3 (IP Packets). Its act as transparent network gateway. It distributes traffic to your virtual appliances. GLB uses “GENEVE” and its registered virtual appliance instances to share application traffic on port 6081.
