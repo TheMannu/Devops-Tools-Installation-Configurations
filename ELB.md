@@ -466,3 +466,6 @@ Migrating to Network Load Balancers offers several advantages, including:
 
 - Gateway load balancer per VPC – 10
 - Targets groups with GENEVE protocol – 10
+
+#### Conclusion
+You should choose ALB if you want a load balancer that can route traffic based on the content of the request and supports multiple protocols, path-based routing, and SSL certificates. 
