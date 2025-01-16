@@ -461,3 +461,8 @@ Migrating to Network Load Balancers offers several advantages, including:
 
 - Gateway LB per region – 20
 - Target groups – 3000
+
+#### Load Balancer Components Limits:
+
+- Gateway load balancer per VPC – 10
+- Targets groups with GENEVE protocol – 10
