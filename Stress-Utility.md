@@ -9,3 +9,9 @@ For most Linux distributions, you can install it using the package manager:
   ```bash
   sudo apt update && sudo apt install stress
   ```
+
+- **RHEL/CentOS**:  
+  ```bash
+  sudo yum install epel-release
+  sudo yum install stress
+  ```
