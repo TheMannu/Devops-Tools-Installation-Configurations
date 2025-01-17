@@ -15,3 +15,8 @@ For most Linux distributions, you can install it using the package manager:
   sudo yum install epel-release
   sudo yum install stress
   ```
+
+---
+
+### **Basic Usage**
+Run `stress` with options to specify the type and level of stress you want to induce.
