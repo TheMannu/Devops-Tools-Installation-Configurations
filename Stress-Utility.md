@@ -20,3 +20,6 @@ For most Linux distributions, you can install it using the package manager:
 
 ### **Basic Usage**
 Run `stress` with options to specify the type and level of stress you want to induce.
+
+#### Common Options:
+| Option              | Description                                     |
