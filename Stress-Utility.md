@@ -4,3 +4,8 @@ The **`stress`** command is a Linux tool designed to put the system under stress
 
 ### **Installing `stress`**
 For most Linux distributions, you can install it using the package manager:
+
+- **Ubuntu/Debian**:  
+  ```bash
+  sudo apt update && sudo apt install stress
+  ```
