@@ -40,7 +40,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
     - Step scaling policy
     - Simple scaling policy
 
-2. Predictive scaling policies
+2. Predictive scaling policies -  Predictive scaling policies use historical data to scale out your group ahead of forecasted hourly load.
 3. Scheduled action
 
 ## Load Testing on Linux servers
