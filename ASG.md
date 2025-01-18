@@ -26,7 +26,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 
 ## Auto Scaling policies or Types
 
-1. Dynamic scaling policies
+1. Dynamic scaling policies - Dynamic scaling policies use real-time data to scale your group based on configurable metrics.
     - Target tracking policy (Creats CloudWatch by its self)
 
     - Step scaling policy
