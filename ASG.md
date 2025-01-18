@@ -32,6 +32,9 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
      - When you create a target tracking scaling policy, Amazon EC2 Auto Scaling automatically increases and decreases capacity in response to varying usage levels. For example, a target tracking scaling policy might have a target CPU value of 50 percent. Amazon EC2 Auto Scaling then launches and terminates EC2 instances as required to keep the aggregated CPU usage across all instances in your group at 50 percent.
 
      - With step scaling and simple scaling, you must create alarms in Amazon CloudWatch, and then define two policies, one for scaling out and the other for scaling in. Step scaling can make bigger or smaller size adjustments based on the metric value, while simple scaling always makes the same size adjustment.
+
+     - Note - Capacity units takes into account the unit of measurement that you chose when configuring the Auto Scaling group. By default, one capacity unit represents one instance. If you chose to use multiple instance types and specify weights for each instance type, you set weights for each instance type in the units of your choice, such as virtual CPUs or memory. In this case, one capacity unit represents a single vCPU or GiB.
+
     - Target tracking policy (Creats CloudWatch by its self)
 
     - Step scaling policy
