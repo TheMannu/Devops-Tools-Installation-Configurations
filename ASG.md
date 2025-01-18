@@ -28,7 +28,8 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 
 1. Dynamic scaling policies - Dynamic scaling policies use real-time data to scale your group based on configurable metrics.
      - Amazon EC2 Auto Scaling can add more instances (referred to as scaling out) to deal with high demand at peak times, and run fewer instances (referred to as scaling in) to reduce costs during periods of low utilization. 
-     
+
+     - When you create a target tracking scaling policy, Amazon EC2 Auto Scaling automatically increases and decreases capacity in response to varying usage levels. For example, a target tracking scaling policy might have a target CPU value of 50 percent. Amazon EC2 Auto Scaling then launches and terminates EC2 instances as required to keep the aggregated CPU usage across all instances in your group at 50 percent.
     - Target tracking policy (Creats CloudWatch by its self)
 
     - Step scaling policy
