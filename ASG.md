@@ -44,6 +44,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
     - Predictive scaling forecasts load based on your Auto Scaling group's history. It scales out the group in advance of forecasted load, so that new instances are ready to serve when the load arrives.
     - Predictive scaling works with CPU utilization, network in/out traffic, the request count to an Application Load Balancer target group, and custom metrics. 
     - We can use predictive scaling to improve availability for applications whose workloads have predictable daily or weekly cycles.
+    - As a best practice, consider using both dynamic scaling and predictive scaling. Predictive scaling uses forecasts to make decisions about when to add capacity according to a metric's historical trends while dynamic scaling makes adjustments in response to real-time changes in a metric's value.
 
 
 3. Scheduled action
