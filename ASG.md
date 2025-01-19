@@ -47,7 +47,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
     - As a best practice, consider using both dynamic scaling and predictive scaling. Predictive scaling uses forecasts to make decisions about when to add capacity according to a metric's historical trends while dynamic scaling makes adjustments in response to real-time changes in a metric's value.
 
 
-3. Scheduled action - Scheduled scaling helps you schedule capacity ahead of anticipated load. 
+3. Scheduled action - Scheduled scaling helps you schedule capacity ahead of anticipated load. To create a scheduled scaling action, you specify the start time when the scaling action should take effect, and the new minimum, maximum, and desired sizes for the scaling action. 
 
 ## Load Testing on Linux servers
 
