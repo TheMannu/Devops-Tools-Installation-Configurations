@@ -36,7 +36,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
      - Note - Capacity units takes into account the unit of measurement that you chose when configuring the Auto Scaling group. By default, one capacity unit represents one instance. If you chose to use multiple instance types and specify weights for each instance type, you set weights for each instance type in the units of your choice, such as virtual CPUs or memory. In this case, one capacity unit represents a single vCPU or GiB.
 
     - Target tracking policy (Creats CloudWatch by its self)
-
+        Average CPU utilizations
     - Step scaling policy
     - Simple scaling policy
 
