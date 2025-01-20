@@ -58,3 +58,6 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 sudo apt-get update
 sudo apt-get install stress
 stress -c 5
+
+
+We can Use tmux for spliting the terminal in the same port 22 session
