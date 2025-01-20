@@ -37,6 +37,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
 
     - Target tracking policy (Creats CloudWatch by its self)
         Average CPU utilizations
+         - Instance Warm Up time - Grace Period Time - it the waiting time for taking the matric of the newly created Instance
     - Step scaling policy
     - Simple scaling policy
 
