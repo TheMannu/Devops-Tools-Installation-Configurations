@@ -38,7 +38,7 @@ Auto-scaling automatically modifies the EC2 instance as per your demand changes.
     - Target tracking policy (Creats CloudWatch by its self)
         Average CPU utilizations
          - Instance Warm Up time - Grace Period Time - it the waiting time for taking the matric of the newly created Instance
-         - Default CoolDown Time - Cooling Period is the time taken to re check if the CPU utilization is still above average then create more instance,
+         - Default CoolDown Time - Cooling Period is the time taken to re check if the CPU utilization is still above average then create more instance, and if it went below average then delete the instance to maintain the minimum Node in there is no load on the application
     - Step scaling policy
     - Simple scaling policy
 
