@@ -45,3 +45,9 @@ Run `stress` with options to specify the type and level of stress you want to in
    ```bash
    stress -m 2 --vm-bytes 1G
    ```
+
+3. **I/O Stress Test**:  
+   Use 2 I/O workers to stress the system:  
+   ```bash
+   stress -i 2
+   ```
