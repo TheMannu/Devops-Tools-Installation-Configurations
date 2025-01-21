@@ -30,3 +30,12 @@ Run `stress` with options to specify the type and level of stress you want to in
 | `-i <N>`            | Stress with `<N>` I/O workers                   |
 | `-d <N>`            | Stress with `<N>` disk workers                  |
 | `-t <TIME>`         | Run stress test for `<TIME>` seconds            |
+
+---
+
+### **Examples**
+1. **CPU Stress Test**:  
+   Run 4 CPU workers indefinitely:  
+   ```bash
+   stress -c 4
+   ```
