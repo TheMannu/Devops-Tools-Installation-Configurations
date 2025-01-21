@@ -39,3 +39,9 @@ Run `stress` with options to specify the type and level of stress you want to in
    ```bash
    stress -c 4
    ```
+
+2. **Memory Stress Test**:  
+   Allocate 1GB of memory using 2 workers:  
+   ```bash
+   stress -m 2 --vm-bytes 1G
+   ```
