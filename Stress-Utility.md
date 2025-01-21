@@ -23,3 +23,10 @@ Run `stress` with options to specify the type and level of stress you want to in
 
 #### Common Options:
 | Option              | Description                                     |
+|---------------------|-------------------------------------------------|
+| `-c <N>`            | Stress with `<N>` CPU workers                   |
+| `-m <N>`            | Stress with `<N>` memory workers                |
+| `--vm-bytes <SIZE>` | Allocate `<SIZE>` of memory per VM worker       |
+| `-i <N>`            | Stress with `<N>` I/O workers                   |
+| `-d <N>`            | Stress with `<N>` disk workers                  |
+| `-t <TIME>`         | Run stress test for `<TIME>` seconds            |
