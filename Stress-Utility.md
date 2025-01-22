@@ -71,3 +71,5 @@ To observe system performance while running `stress`, use tools like:
 - **`top`**: Real-time process monitoring.
 - **`htop`**: Enhanced, interactive process viewer.
 - **`iotop`**: Monitor I/O usage by processes.
+- **`free -h`**: Check memory usage.
+- **`sar`** (from sysstat): Detailed performance metrics.
