@@ -73,3 +73,6 @@ To observe system performance while running `stress`, use tools like:
 - **`iotop`**: Monitor I/O usage by processes.
 - **`free -h`**: Check memory usage.
 - **`sar`** (from sysstat): Detailed performance metrics.
+
+### **Stopping Stress**
+Press **Ctrl+C** to stop the `stress` test manually. 
