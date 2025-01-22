@@ -58,3 +58,10 @@ Run `stress` with options to specify the type and level of stress you want to in
    stress -c 2 -m 1 --vm-bytes 512M -i 1 -t 60
    ```
 
+5. **Disk Stress Test**:  
+   Use 2 disk workers:  
+   ```bash
+   stress -d 2
+   ```
+
+---
