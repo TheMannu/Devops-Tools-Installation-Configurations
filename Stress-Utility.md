@@ -65,3 +65,7 @@ Run `stress` with options to specify the type and level of stress you want to in
    ```
 
 ---
+
+### **Monitoring System During Stress**
+To observe system performance while running `stress`, use tools like:
+- **`top`**: Real-time process monitoring.
