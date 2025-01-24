@@ -4,3 +4,4 @@
 - As a best practice we should follow Least Privileged Permission Polices - and can be checked using Access Report - Access Analyzer or Credential Report. 
 
 ### Difference between root User and User
+1. account level configuration(contact info, etc.) can not  be done by IAM admin and it can only be done by root user.
