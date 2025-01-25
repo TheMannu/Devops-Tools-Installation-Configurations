@@ -9,3 +9,4 @@
 2. Suppose by chance if admin user(A) has removed its own permission by mistake and in this case only root user is there who can give back the admin permission to A.
 
 3. Billing and cost management access is not assigned to admin user by default but these access are assign to root user by default.
+4. Only root user can close your AWS account and IAM admin can't close the account.
