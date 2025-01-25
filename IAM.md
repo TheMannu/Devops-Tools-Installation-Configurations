@@ -12,3 +12,5 @@
 4. Only root user can close your AWS account and IAM admin can't close the account.
 
 5. Support plan can only be changed by root user and not by IAM admin.
+
+## Conflicts Of  Allow and Deny
