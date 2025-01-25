@@ -5,3 +5,5 @@
 
 ### Difference between root User and User
 1. account level configuration(contact info, etc.) can not  be done by IAM admin and it can only be done by root user.
+
+2. Suppose by chance if admin user(A) has removed its own permission by mistake and in this case only root user is there who can give back the admin permission to A.
