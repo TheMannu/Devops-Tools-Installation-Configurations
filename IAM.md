@@ -14,3 +14,4 @@
 5. Support plan can only be changed by root user and not by IAM admin.
 
 ## Conflicts Of  Allow and Deny
+In AWS Identity and Access Management (IAM), when a user is associated with multiple groups, the permissions are cumulative. 
