@@ -20,3 +20,4 @@ In IAM, explicit denials take precedence over permissions granted.  This is know
 
 In your scenario:
 - Group 1 grants read and write permissions to S3.
+- Group 2 denies read and write permissions to S3.
