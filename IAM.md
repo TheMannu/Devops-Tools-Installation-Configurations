@@ -14,4 +14,4 @@
 5. Support plan can only be changed by root user and not by IAM admin.
 
 ## Conflicts Of  Allow and Deny
-In AWS Identity and Access Management (IAM), when a user is associated with multiple groups, the permissions are cumulative. 
+In AWS Identity and Access Management (IAM), when a user is associated with multiple groups, the permissions are cumulative. This means that if you attach a user to two groups—one with permissions to read and write in Amazon S3, and another with explicit denials to read and write in S3—the user will ultimately be denied those permissions. 
