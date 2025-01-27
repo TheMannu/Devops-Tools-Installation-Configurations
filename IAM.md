@@ -29,3 +29,6 @@ So, the user will essentially have the least permissive set of permissions acros
 ## Password Policies
 
 Brut Force Attach - A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys.
+
+To keep Our account safe from these types of attacks 
+We can Configure or Customize IAM Account Pasword Policies from 
