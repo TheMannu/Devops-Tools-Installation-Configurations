@@ -32,3 +32,4 @@ Brut Force Attach - A brute force attack is a hacking method that uses trial and
 
 To keep Our account safe from these types of attacks 
 We can Configure or Customize IAM Account Pasword Policies from 
+- IAM dashboard - Access Management - Account Setting - Edit Password Policy - Custom - Configure As per Our Requirements - Save Changes 
