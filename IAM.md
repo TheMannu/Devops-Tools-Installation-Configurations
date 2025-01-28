@@ -43,3 +43,5 @@ That's why bank account login pages do have Virtual Keyboard to type using Mouse
 
 We can Create resources on AWS from CLI also and for that we need to configure AWS CLI in our Local System 
 - IAM dashboard - User - Select User - Security Credentials - Access Keys (Max Two) - Create Access Keys - Download CSV file - Done
+
+Now Install CLI in our Local Machine Linux, Windows or Mac
