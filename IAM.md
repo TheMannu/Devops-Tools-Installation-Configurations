@@ -35,3 +35,4 @@ We can Configure or Customize IAM Account Pasword Policies from
 - IAM dashboard - Access Management - Account Setting - Edit Password Policy - Custom - Configure As per Our Requirements - Save Changes 
 
 We can Also Enable MFA (Multi-Factor Authentication)
+- IAM dashboard - Add MFA
