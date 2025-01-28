@@ -36,3 +36,4 @@ We can Configure or Customize IAM Account Pasword Policies from
 
 We can Also Enable MFA (Multi-Factor Authentication)
 - IAM dashboard - Add MFA
+The MFA keeps us safe from attacks that is done by Key Logger using background running program to send key logs to hackers
