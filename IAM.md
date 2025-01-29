@@ -45,4 +45,5 @@ We can Create resources on AWS from CLI also and for that we need to configure A
 - IAM dashboard - User - Select User - Security Credentials - Access Keys (Max Two) - Create Access Keys - Download CSV file - Done
 
 Now Install CLI in our Local Machine Linux, Windows or Mac
-- Now open The CLI and Run Command - "aws --version" - "aws configure" - paste the Access Keys - Paste the Secret Access Keys - May Select Regions - May Select Output format 
+- Now open The CLI and Run Command - "aws --version" - "aws configure" - paste the Access Keys - Paste the Secret Access Keys - May Select Regions - May Select Output format.
+- Check With command - "AWS help" 
