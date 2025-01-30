@@ -65,4 +65,4 @@ Configure Default Account
 command - "aws configure --profile profileName" - "export AWS_DEFAULT_PROFILE=profileName"
 
 ## IAM - Role
-A role is an IAM identity that you can create in your account that has specific permissions. 
+A role is an IAM identity that you can create in your account that has specific permissions. An IAM role has some similarities to an IAM user. 
