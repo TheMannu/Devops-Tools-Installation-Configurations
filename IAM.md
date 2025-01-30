@@ -58,3 +58,4 @@ Run - "aws ec2 describe-instances"
 
 ## Configure Multiple AWS Accounts
 command - "aws configure --profile acc1" 
+Run - "aws ec2 describe-instances --profile acc1"
