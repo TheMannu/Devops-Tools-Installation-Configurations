@@ -71,3 +71,4 @@ We can use roles to delegate access to users, applications, or services that don
 The types of AWS Identity and Access Management (IAM) roles are categorized by their trust policies. The main types of IAM roles are:
 
 • Service role: An application running on an EC2 instance can assume this role to perform actions in your account.
+• Service-linked role: This role is owned by AWS and includes all the permissions required to call other AWS services on your behalf.
