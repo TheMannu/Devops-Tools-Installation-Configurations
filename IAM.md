@@ -69,3 +69,5 @@ A role is an IAM identity that you can create in your account that has specific 
 We can use roles to delegate access to users, applications, or services that don't normally have access to your AWS resources.
 
 The types of AWS Identity and Access Management (IAM) roles are categorized by their trust policies. The main types of IAM roles are:
+
+• Service role: An application running on an EC2 instance can assume this role to perform actions in your account.
