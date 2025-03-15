@@ -470,3 +470,12 @@ Deploy scale and manage a fleet of 3rd party network virtual appliances in AWS. 
 #### Conclusion
 You should choose ALB if you want a load balancer that can route traffic based on the content of the request and supports multiple protocols, path-based routing, and SSL certificates. NLB is a good choice if you want a load balancer that can handle high levels of traffic with ultra-low latencies and can route traffic based on IP address and TCP port. CLB is a legacy load balancer that is not recommended for new applications.
 
+### For Testing Instances With there host name as There Private IP
+
+
+#!/bin/bash
+
+sudo apt-get update
+sudo apt-get install nginx -y
+
+sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
