@@ -102,3 +102,4 @@ An application running on an EC2 instance assumes the service role to upload fil
 
 4. SAML 2.0 Federation Role
 • Definition: A type of IAM role used for federated authentication with SAML 2.0-compatible identity providers (e.g., Microsoft Active Directory, Okta).
+• Purpose: Enables users to log in to AWS via an enterprise identity provider and assume roles with appropriate permissions.
