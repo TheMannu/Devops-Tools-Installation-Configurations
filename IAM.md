@@ -108,3 +108,4 @@ An application running on an EC2 instance assumes the service role to upload fil
 
 5. Custom IAM Role
 • Definition: A role created and defined manually by you (the user), tailored to meet specific permission requirements.
+• Purpose: Allows precise control over what actions can be performed on which AWS resources. 
