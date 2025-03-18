@@ -113,5 +113,8 @@ An application running on an EC2 instance assumes the service role to upload fil
   - A custom role is created for a Lambda function that grants permissions only to read/write data to specific DynamoDB tables or invoke specific AWS APIs. 
 
 Comparison at a Glance:
+
 Role Type	| Who Owns It?	| Usage	| Example
 Service Role	| User-defined	| Application on EC2 to access AWS services.	| An EC2 instance writes logs to CloudWatch.
+
+Service-Linked Role	| AWS	| AWS services perform actions on your behalf.	| Auto Scaling service modifying instance counts.
