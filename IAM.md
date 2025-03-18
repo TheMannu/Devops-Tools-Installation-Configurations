@@ -118,3 +118,5 @@ Role Type	| Who Owns It?	| Usage	| Example
 Service Role	| User-defined	| Application on EC2 to access AWS services.	| An EC2 instance writes logs to CloudWatch.
 
 Service-Linked Role	| AWS	| AWS services perform actions on your behalf.	| Auto Scaling service modifying instance counts.
+
+Web Identity Role	| User-defined	| Federation with web identity providers.	| Users authenticated via Cognito upload photos to S3.
