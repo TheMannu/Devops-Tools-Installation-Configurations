@@ -123,3 +123,8 @@ An application running on an EC2 instance assumes the service role to upload fil
 | **Web Identity Role**  | User-defined      | Federation with web identity providers.        | Users authenticated via Cognito upload photos to S3.      |
 | **SAML 2.0 Federation** |	User-defined	 | Federation with enterprise identity providers (e.g., Okta).| Employee logs into AWS via an enterprise portal.
 | **Custom IAM Role** |	User-defined	 | Tailored permissions for specific use cases.	| A Lambda function reads/writes from a DynamoDB table.
+
+---
+Each role type serves a specific purpose, ensuring secure and fine-grained access to AWS resources in a variety of scenarios.
+
+---
