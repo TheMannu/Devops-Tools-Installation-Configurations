@@ -136,3 +136,6 @@ Steps to Create a User with Region-Specific Full EC2 Access
 1. Create an IAM User:
 
   - Go to the IAM section in the AWS Management Console.
+  - Create a new user and select Programmatic access or Management 
+  - Console access, depending on your needs.
+Attach permissions later (we'll cover this in the next step).
