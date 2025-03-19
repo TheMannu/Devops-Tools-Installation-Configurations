@@ -128,3 +128,7 @@ An application running on an EC2 instance assumes the service role to upload fil
 Each role type serves a specific purpose, ensuring secure and fine-grained access to AWS resources in a variety of scenarios.
 
 ---
+
+### Question 1 : How can you create a user in AWS with full EC2 access limited to a specific region?
+
+Steps to Create a User with Region-Specific Full EC2 Access
