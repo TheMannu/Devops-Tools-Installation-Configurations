@@ -132,3 +132,7 @@ Each role type serves a specific purpose, ensuring secure and fine-grained acces
 ### Question 1 : How can you create a user in AWS with full EC2 access limited to a specific region?
 
 Steps to Create a User with Region-Specific Full EC2 Access
+
+1. Create an IAM User:
+
+  - Go to the IAM section in the AWS Management Console.
