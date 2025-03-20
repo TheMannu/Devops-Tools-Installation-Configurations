@@ -142,3 +142,4 @@ Steps to Create a User with Region-Specific Full EC2 Access
 2. Define a Custom Policy: You need two policy statements:
 
   - One to allow full EC2 access in the desired region.
+  - Another to explicitly deny access to EC2 resources in all other regions.
