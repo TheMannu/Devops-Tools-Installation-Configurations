@@ -158,4 +158,16 @@ Steps to Create a User with Region-Specific Full EC2 Access
                 }
             }
         },
+                {
+            "Effect": "Deny",
+            "Action": "ec2:*",
+            "Resource": "*",
+            "Condition": {
+                "StringNotEquals": {
+                    "aws:RequestedRegion": "us-west-2"
+                }
+            }
+        }
+    ]
+  }
   ```
