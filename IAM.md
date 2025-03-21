@@ -135,14 +135,14 @@ Steps to Create a User with Region-Specific Full EC2 Access
 
 1. Create an IAM User:
 
-  - Go to the IAM section in the AWS Management Console.
-  - Create a new user and select Programmatic access or Management Console access, depending on your needs.
-  - Attach permissions later (we'll cover this in the next step).
+   - Go to the IAM section in the AWS Management Console.
+   - Create a new user and select Programmatic access or Management Console access, depending on your needs.
+   - Attach permissions later (we'll cover this in the next step).
 
 2. Define a Custom Policy: You need two policy statements:
 
-  - One to allow full EC2 access in the desired region.
-  - Another to explicitly deny access to EC2 resources in all other regions.
+   - One to allow full EC2 access in the desired region.
+   - Another to explicitly deny access to EC2 resources in all other regions.
 
   ```yaml
   {
@@ -179,3 +179,8 @@ Steps to Create a User with Region-Specific Full EC2 Access
 
   - Go to the IAM user you created.
   - Attach the custom policy (either directly or via a group).
+
+4. Test the Configuration:
+
+  - Log in as the IAM user (or use their access credentials) and attempt to perform EC2 operations in us-west-2 (should succeed).
+  - Try accessing EC2 resources in other regions (should be denied).
