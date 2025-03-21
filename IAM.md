@@ -192,3 +192,8 @@ Steps to Create a User with Region-Specific Full EC2 Access
   - The Resource: "*" field can be further restricted to specific EC2 resources (like instances, volumes, etc.) if needed.
 - Policy Priority:
   - Explicit denies (as in this policy) always override allows, ensuring no accidental access to other regions.
+
+### 1. **Performing Tasks as a Role in CloudShell**
+   - AWS CloudShell automatically inherits the permissions of the IAM user or role that you are logged in as in the AWS Management Console.
+   - If you need to perform tasks using a specific IAM role, you can assume that role in the AWS Management Console before launching CloudShell. Once you assume the role, CloudShell will have the permissions associated with that role.
+   - This is a secure way to manage AWS resources because you don't need to store long-term credentials (like access keys) on the VM or in your environment.
