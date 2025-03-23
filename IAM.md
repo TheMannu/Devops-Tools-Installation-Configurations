@@ -225,3 +225,8 @@ Steps to Create a User with Region-Specific Full EC2 Access
 ### 2. **Perform Tasks:**
 
    - You can now use AWS CLI commands or other tools within CloudShell to perform tasks with the permissions of the assumed role.
+
+## Benefits of Using CloudShell:
+  - No Setup Required: CloudShell comes pre-installed with popular tools like the AWS CLI, SDKs, and other utilities.
+
+  - Secure: CloudShell automatically uses the credentials of the IAM user or role you are logged in as, so you don't need to manage or store additional credentials.
