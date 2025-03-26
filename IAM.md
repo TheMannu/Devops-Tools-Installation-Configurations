@@ -305,3 +305,6 @@ Access Advisor provides last accessed information for IAM users, groups, and rol
   - Modify the S3 bucket policy to restrict public access.
 
   - Document justifications for remaining permissions.
+
+### Conclusion
+By combining AWS Access Analyzer (for external access risks) and IAM Access Advisor (for internal permission usage tracking), you can:
