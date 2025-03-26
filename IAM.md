@@ -278,3 +278,11 @@ Access Advisor provides last accessed information for IAM users, groups, and rol
 1. Access Analyzer → Finds unintended external access to resources.
 
 2. Access Advisor → Checks if internal users/roles are actually using their permissions.
+
+3. Justification & Remediation:
+
+  - If Access Advisor shows unused permissions, you can remove them.
+
+  - If Access Analyzer detects unintended external access, you can restrict it.
+
+  - You can ask teams for justification if permissions seem unnecessary.
