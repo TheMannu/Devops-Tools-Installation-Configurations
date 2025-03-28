@@ -370,3 +370,8 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 ✅ **Rotate Access Keys** → If `access_key_last_rotated` is >90 days.  
 ✅ **Remove Unnecessary Passwords** → Disable `password_enabled` for service roles.  
 
+---
+
+### **Automating Remediation**
+You can automate checks using:
+- **AWS Config Rules** (e.g., `iam-user-mfa-enabled`, `access-keys-rotated`)  
