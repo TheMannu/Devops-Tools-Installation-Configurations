@@ -363,3 +363,7 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 
 ---
 
+### **Common Actions Based on the Report**
+✅ **Disable Unused Access Keys** → If `access_key_last_used` is >90 days old.  
+✅ **Delete Inactive IAM Users** → If `password_last_used` is too old.  
+
