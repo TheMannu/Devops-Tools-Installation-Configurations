@@ -354,3 +354,5 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 | Column | What It Tells You | Action Required |
 |--------|------------------|----------------|
 | `user` | IAM username | Check if the user is still active. |
+| `password_enabled` | Whether a login password is set | Disable if not needed. |
+| `password_last_used` | Last time password was used | Disable if unused for >90 days. |
