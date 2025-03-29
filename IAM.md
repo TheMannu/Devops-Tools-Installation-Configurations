@@ -379,3 +379,7 @@ You can automate checks using:
 - **AWS Security Hub** (for centralized compliance tracking)  
 
 ---
+
+### **Best Practices**
+🔹 **Review the report monthly** (or automate checks).  
+🔹 **Follow Least Privilege** – Remove unused permissions.  
