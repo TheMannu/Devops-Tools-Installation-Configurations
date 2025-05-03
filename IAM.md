@@ -114,8 +114,6 @@ An application running on an EC2 instance assumes the service role to upload fil
 
 ### Comparison at a Glance:
 
- 
-
 | **Role Type**          | **Who Owns It?**   | **Usage**                                      | **Example**                                                |
 |------------------------|-------------------|------------------------------------------------|------------------------------------------------------------|
 | **Service Role**       | User-defined      | Application on EC2 to access AWS services.     | An EC2 instance writes logs to CloudWatch.                |
